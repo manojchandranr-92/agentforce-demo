@@ -122,7 +122,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-02
       id: US-01
       labels: []
       manually_edited: false
@@ -145,7 +145,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-02
       id: US-02
       labels: []
       manually_edited: false
@@ -166,7 +166,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-01
       id: US-03
       labels: []
       manually_edited: false
@@ -187,7 +187,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-03
       id: US-04
       labels: []
       manually_edited: false
@@ -209,7 +209,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-02
       id: US-05
       labels: []
       manually_edited: false
@@ -226,7 +226,7 @@ pipeline_artifacts:
       assignee: null
       derived: false
       description: ''
-      epic_id: null
+      epic_id: EP-02
       id: US-06
       labels: []
       manually_edited: true
@@ -239,5 +239,2841 @@ pipeline_artifacts:
       story_points: null
       title: New user story — click to edit
       type: story
+    - acceptance_criteria:
+      - Requirement REQ-01 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: System shall support user authentication and role-based access
+        control
+      epic_id: EP-01
+      id: US-106
+      labels:
+      - requirement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: requirement:REQ-01
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: System shall support user authentication and role-based
+        access control'
+      type: story
+    - acceptance_criteria:
+      - Requirement REQ-02 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: Data migration from legacy system with validation and reconciliation
+      epic_id: EP-04
+      id: US-107
+      labels:
+      - requirement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: requirement:REQ-02
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: Data migration from legacy system with validation
+        and reconciliation'
+      type: story
+    - acceptance_criteria:
+      - Requirement REQ-03 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: Real-time integration with existing enterprise systems
+      epic_id: EP-04
+      id: US-108
+      labels:
+      - requirement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: requirement:REQ-03
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: Real-time integration with existing enterprise
+        systems'
+      type: story
+    - acceptance_criteria:
+      - Requirement REQ-04 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: Reporting and analytics dashboard for key business metrics
+      epic_id: EP-03
+      id: US-109
+      labels:
+      - requirement
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: requirement:REQ-04
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: Reporting and analytics dashboard for key business
+        metrics'
+      type: story
+    - acceptance_criteria:
+      - Requirement REQ-05 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: Automated notifications and workflow triggers
+      epic_id: EP-05
+      id: US-110
+      labels:
+      - requirement
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: requirement:REQ-05
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: Automated notifications and workflow triggers'
+      type: story
+    - acceptance_criteria:
+      - Requirement REQ-06 is implemented and verifiable
+      - Verified by acceptance test
+      assignee: null
+      derived: true
+      description: Audit trail and compliance logging
+      epic_id: EP-01
+      id: US-111
+      labels:
+      - requirement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: requirement:REQ-06
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: 'System shall support: Audit trail and compliance logging'
+      type: story
+    - acceptance_criteria:
+      - Legacy ERP bidirectional data flow is established and tested
+      - Error handling and retry logic are in place
+      - Integration monitoring/alerting is configured
+      assignee: null
+      derived: true
+      description: Master data sync and transaction exchange
+      epic_id: EP-04
+      id: US-112
+      labels:
+      - integration
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: integration:Legacy ERP
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to integrate with Legacy ERP (bidirectional) via
+        REST API
+      type: story
+    - acceptance_criteria:
+      - Email Service outbound data flow is established and tested
+      - Error handling and retry logic are in place
+      - Integration monitoring/alerting is configured
+      assignee: null
+      derived: true
+      description: Notification delivery
+      epic_id: EP-05
+      id: US-113
+      labels:
+      - integration
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: integration:Email Service
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to integrate with Email Service (outbound) via SMTP
+      type: story
+    - acceptance_criteria:
+      - Action is completed and signed off
+      assignee: null
+      derived: true
+      description: Set up development and sandbox environments
+      epic_id: EP-04
+      id: US-114
+      labels:
+      - delivery-action
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: action-ps
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As the delivery team, I want to Set up development and sandbox environments
+      type: story
+    - acceptance_criteria:
+      - Action is completed and signed off
+      assignee: null
+      derived: true
+      description: Design solution architecture and integration topology
+      epic_id: EP-04
+      id: US-115
+      labels:
+      - delivery-action
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: action-ps
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As the delivery team, I want to Design solution architecture and integration
+        topology
+      type: story
+    - acceptance_criteria:
+      - Action is completed and signed off
+      assignee: null
+      derived: true
+      description: Build data migration scripts and validation framework
+      epic_id: EP-04
+      id: US-116
+      labels:
+      - delivery-action
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: action-ps
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As the delivery team, I want to Build data migration scripts and validation
+        framework
+      type: story
+    - acceptance_criteria:
+      - System displays top 3 apartments matching the visitor's criteria
+      - Results include apartment details such as size, location, and price
+      - Search filters include budget range, area/location, and apartment size
+      - Results are displayed in a table format with relevant apartment information
+      assignee: null
+      derived: false
+      description: The Leasing Assistant agent should check apartment availability
+        based on visitor-provided criteria like budget, area, and size, displaying
+        matching options with details.
+      epic_id: null
+      id: US-07
+      labels:
+      - leasing-assistant
+      - apartment-search
+      - availability
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Check the availability of the apartments based on the details
+        provided by the visitor - Like budget, area, size etc.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a prospective tenant, I want to check apartment availability based
+        on my criteria so that I can find suitable apartments within my budget and
+        preferences
+      type: story
+    - acceptance_criteria:
+      - Agent collects visitor's name, email address, and phone number
+      - Agent captures visitor's apartment requirements and preferences
+      - System creates a lead record with the collected information
+      - Lead is properly stored in Salesforce for follow-up by leasing agents
+      assignee: null
+      derived: false
+      description: The agent should gather visitor information including name, email,
+        phone number, and requirements to create a lead in the system.
+      epic_id: null
+      id: US-08
+      labels:
+      - leasing-assistant
+      - lead-generation
+      - contact-capture
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Gather some information from the visitor like - Name, email
+        address, phone number, requirement etc. and create a lead.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a prospective tenant, I want to provide my contact information and
+        requirements so that a lead can be created for follow-up
+      type: story
+    - acceptance_criteria:
+      - Agent asks if user would like to schedule a showing based on urgency indicators
+      - System creates a task when user requests a showing
+      - Task is escalated to a human leasing agent for follow-up
+      - Showing request is linked to the visitor's lead record
+      assignee: null
+      derived: false
+      description: When a visitor expresses urgency or interest, the agent should
+        offer to schedule a showing and create a task for human agent escalation.
+      epic_id: null
+      id: US-09
+      labels:
+      - leasing-assistant
+      - showing-scheduling
+      - task-creation
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Given the urgency, ask the user if they would like to schedule
+        a showing. If so, configure the agent to create a task
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a prospective tenant, I want to schedule an apartment showing when
+        I'm interested so that I can view the property in person
+      type: story
+    - acceptance_criteria:
+      - Agent can access and search the apartment handbook PDF document
+      - Agent provides accurate responses based on handbook content
+      - Responses include relevant apartment policies, amenities, and features
+      - Agent cites handbook information when answering specific apartment questions
+      assignee: null
+      derived: false
+      description: The agent should use the apartment handbook to respond to further
+        queries about any apartment using RAG capabilities.
+      epic_id: null
+      id: US-10
+      labels:
+      - leasing-assistant
+      - knowledge-base
+      - rag
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: In case of further queries about any apartment use the handbook
+        to respond.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a prospective tenant, I want to get answers about apartment details
+        from the handbook so that I can make informed decisions
+      type: story
+    - acceptance_criteria:
+      - Agent does not offer discounts when none are configured in the system
+      - Agent cannot offer discounts higher than what is listed in the system
+      - System validates discount eligibility before presenting offers
+      - Unauthorized discount attempts are logged and prevented
+      assignee: null
+      derived: false
+      description: The agent should have guardrails that prevent offering discounts
+        when none are available and ensure no discounts exceed listed amounts.
+      epic_id: null
+      id: US-11
+      labels:
+      - leasing-assistant
+      - pricing-controls
+      - guardrails
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Ensure that there are guardrails preventing the agent from offering
+        any discounts if none are present
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a leasing agent, I want the system to prevent unauthorized discounts
+        so that pricing integrity is maintained
+      type: story
+    - acceptance_criteria:
+      - System captures when user expresses interest in specific apartments
+      - Apartment details are tagged and linked to the lead record
+      - Interest indicators are tracked for each apartment the user inquires about
+      - Tagged information is accessible to human agents for follow-up
+      assignee: null
+      derived: false
+      description: When a user shows interest in any apartment, the agent should tag
+        those apartment details against the lead record.
+      epic_id: null
+      id: US-12
+      labels:
+      - leasing-assistant
+      - interest-tracking
+      - lead-management
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: If the user shows interest in any apartment tag the details
+        against the lead.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a leasing agent, I want apartment interest details tagged to leads
+        so that I can follow up with targeted information
+      type: story
+    - acceptance_criteria:
+      - Custom discount object is created in Salesforce
+      - Property managers can configure monthly move-in specials
+      - Discounts are property-specific and time-bound
+      - Agent can access and apply configured discounts appropriately
+      assignee: null
+      derived: false
+      description: System should support configuration of monthly move-in special
+        discounts in Salesforce using a custom discount object for specific properties.
+      epic_id: null
+      id: US-13
+      labels:
+      - discount-management
+      - configuration
+      - property-specific
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Configure a monthly move-in special discount in Salesforce (custom
+        discount object) for specific properties
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want to configure monthly move-in specials for
+        specific properties so that promotional discounts can be offered
+      type: story
+    - acceptance_criteria:
+      - Community site is accessible to guest users without authentication
+      - Messaging service is deployed and functional on the community site
+      - Guest users can initiate conversations with the leasing assistant
+      - Site provides seamless access to apartment inquiry capabilities
+      assignee: null
+      derived: false
+      description: A messaging services deployment should be implemented in a community
+        site that is accessible to guest users for property inquiries.
+      epic_id: null
+      id: US-14
+      labels:
+      - community-site
+      - guest-access
+      - messaging-deployment
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Implement a messaging services deployment in a community site
+        that is accessible to guest users.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to access the leasing assistant through a community
+        site so that I can inquire about apartments without creating an account
+      type: story
+    - acceptance_criteria:
+      - Agent can provide amenity details for specific apartments
+      - Security deposit information is available and accurate
+      - Information is presented in a clear, organized format
+      - Agent can handle multiple information requests in a single inquiry
+      assignee: null
+      derived: false
+      description: The agent should provide comprehensive apartment information including
+        amenities and security deposit details when requested.
+      epic_id: null
+      id: US-15
+      labels:
+      - leasing-assistant
+      - apartment-details
+      - amenities
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: What amenities does it have and what is the security deposit?
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a prospective tenant, I want to get information about amenities and
+        security deposits so that I can understand the full cost and benefits
+      type: story
+    - acceptance_criteria:
+      - Knowledge article creation interface is available
+      - Articles can contain apartment-specific information
+      - Agent can search and reference knowledge articles
+      - Articles are properly categorized and tagged for easy retrieval
+      assignee: null
+      derived: false
+      description: System should support creation of dummy knowledge articles that
+        can be used by the agent for answering apartment-related questions.
+      epic_id: null
+      id: US-16
+      labels:
+      - knowledge-management
+      - content-creation
+      - data-setup
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Create some dummy knowledge articles to be used for answering
+        questions about apartments.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a data administrator, I want to create knowledge articles for apartment
+        information so that the agent has structured content to reference
+      type: story
+    - acceptance_criteria:
+      - Sample data can be modified to support test scenarios
+      - Data includes tenants, apartments, features, and availability information
+      - Data modifications support realistic agent interactions
+      - Adjusted data maintains referential integrity
+      assignee: null
+      derived: false
+      description: Sample data for tenants, apartments, apartment features, and availability
+        should be adjustable to fit the agentic scenarios as needed.
+      epic_id: null
+      id: US-17
+      labels:
+      - data-management
+      - test-data
+      - configuration
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Adjust the sample data seeded for you to fit the agentic scenarios
+        as needed.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a data administrator, I want to adjust sample data for agentic scenarios
+        so that testing reflects realistic use cases
+      type: story
+    - acceptance_criteria:
+      - Guest users can access messaging without authentication
+      - Messaging interface is embedded in the community site
+      - Service is available 24/7 for property inquiries
+      assignee: null
+      derived: false
+      description: Deploy messaging services in a community site that allows guest
+        users to interact with agents for property inquiries.
+      epic_id: null
+      id: US-18
+      labels:
+      - messaging
+      - guest-access
+      - community-site
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Implement a messaging services deployment in a community site
+        that is accessible to guest users.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to access a messaging service on the community
+        site so that I can inquire about properties without logging in
+      type: story
+    - acceptance_criteria:
+      - Agent can query structured availability data
+      - Responses include accurate apartment availability information
+      - Data is updated in real-time or near real-time
+      assignee: null
+      derived: false
+      description: Configure agent to access and utilize structured availability data
+        to respond to property-related questions from guests.
+      epic_id: null
+      id: US-19
+      labels:
+      - agent-configuration
+      - structured-data
+      - availability
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Use an agent in the messaging session to answer questions about
+        the property based on structured availability data
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want an agent to answer property questions using structured
+        availability data so that I get accurate apartment information
+      type: story
+    - acceptance_criteria:
+      - Agent can search through unstructured handbook content
+      - Responses cite relevant handbook sections
+      - Information covers property rules, amenities, and policies
+      assignee: null
+      derived: false
+      description: Configure agent to access and utilize unstructured handbook data
+        for comprehensive property information responses.
+      epic_id: null
+      id: US-20
+      labels:
+      - agent-configuration
+      - unstructured-data
+      - handbook
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: answer questions about the property based on structured availability
+        data and unstructured handbook data
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want an agent to answer property questions using handbook
+        data so that I get comprehensive property information
+      type: story
+    - acceptance_criteria:
+      - Results displayed in table format with clear columns
+      - Shows exactly three top matches based on user requirements
+      - Table includes key apartment details like price, size, location
+      assignee: null
+      derived: false
+      description: Agent displays apartment availability results in a structured table
+        showing the three best matches based on user criteria.
+      epic_id: null
+      id: US-21
+      labels:
+      - display-formatting
+      - apartment-matching
+      - ui-table
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Configure the agent to display a table with the top three available
+        apartments based on user requirements.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to see the top three available apartments in
+        a table format so that I can easily compare options
+      type: story
+    - acceptance_criteria:
+      - System captures guest contact information during chat
+      - Lead record is automatically created with gathered data
+      - Information includes basic contact details and property interest
+      assignee: null
+      derived: false
+      description: Collect guest information through the messaging interaction and
+        automatically create lead records in the system.
+      epic_id: null
+      id: US-22
+      labels:
+      - lead-generation
+      - data-collection
+      - guest-information
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Gather some information about the guest and create a lead.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a sales agent, I want to gather guest information during conversations
+        so that I can create qualified leads
+      type: story
+    - acceptance_criteria:
+      - Automated workflow triggers when guest ends conversation without action
+      - Follow-up communications are scheduled and personalized
+      - Process includes multiple touchpoints over time
+      assignee: null
+      derived: false
+      description: Design and implement automated lead nurturing workflows for guests
+        who end conversations without commitment.
+      epic_id: null
+      id: US-23
+      labels:
+      - lead-nurturing
+      - automation
+      - follow-up
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Design a process using Lead Nurturing to follow up with them
+        and explain your design.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a marketing manager, I want a lead nurturing process for window shopping
+        guests so that I can follow up with potential customers
+      type: story
+    - acceptance_criteria:
+      - Agent cannot offer discounts if none exist in system
+      - System validates discount availability before allowing offers
+      - Clear error handling when discount requests cannot be fulfilled
+      assignee: null
+      derived: false
+      description: Implement system controls that prevent agents from offering any
+        discounts when none are configured or available.
+      epic_id: null
+      id: US-24
+      labels:
+      - guardrails
+      - discount-control
+      - policy-enforcement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Ensure that there are guardrails preventing the agent from offering
+        any discounts if none are present.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want guardrails preventing unauthorized discounts
+        so that agents cannot offer deals outside policy
+      type: story
+    - acceptance_criteria:
+      - Custom discount object stores property-specific offers
+      - Discounts can be configured with monthly move-in specials
+      - System tracks discount validity and property association
+      assignee: null
+      derived: false
+      description: Create custom discount object in Salesforce to store and manage
+        property-specific promotional offers and pricing.
+      epic_id: null
+      id: US-25
+      labels:
+      - discount-configuration
+      - custom-object
+      - salesforce
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Configure a monthly move-in special discount in Salesforce (custom
+        discount object) for specific properties
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want to configure monthly move-in specials in
+        Salesforce so that agents can offer approved discounts
+      type: story
+    - acceptance_criteria:
+      - Agent cannot exceed maximum discount percentage or amount
+      - System validates discount offers against configured limits
+      - Appropriate error messages for discount limit violations
+      assignee: null
+      derived: false
+      description: Ensure agents can only offer discounts up to the maximum amount
+        specified in the discount configuration.
+      epic_id: null
+      id: US-26
+      labels:
+      - discount-limits
+      - validation
+      - business-rules
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: ensure the agent doesn't offer any discounts higher than what
+        is listed
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want agents limited to configured discount amounts
+        so that unauthorized deals cannot be offered
+      type: story
+    - acceptance_criteria:
+      - Agent recognizes urgency indicators in user requests
+      - Availability check returns immediate results
+      - Lead is created with urgency flag for prioritization
+      assignee: null
+      derived: false
+      description: Agent processes urgent apartment availability requests using existing
+        configuration and lead creation processes.
+      epic_id: null
+      id: US-27
+      labels:
+      - availability-check
+      - urgency-handling
+      - lead-creation
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Use the configuration setup above to create the lead and check
+        availability of apartments.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want the agent to check apartment availability for
+        urgent requests so that I can get immediate information
+      type: story
+    - acceptance_criteria:
+      - Agent asks if user wants to schedule showing for urgent requests
+      - Scheduling interface is accessible through the chat
+      - Showing requests are logged and tracked in the system
+      assignee: null
+      derived: false
+      description: Agent offers scheduling options for property showings when users
+        express urgency in their apartment search.
+      epic_id: null
+      id: US-28
+      labels:
+      - showing-scheduling
+      - urgency-handling
+      - appointment-booking
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Given the urgency, ask the user if they would like to schedule
+        a showing.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to schedule property showings for urgent requests
+        so that I can view apartments quickly
+      type: story
+    - acceptance_criteria:
+      - Escalation triggers when user requests showing
+      - Human agent receives context from previous conversation
+      - Seamless handoff without information loss
+      assignee: null
+      derived: false
+      description: Configure agent escalation process to transfer users to human agents
+        when scheduling property showings.
+      epic_id: null
+      id: US-29
+      labels:
+      - escalation
+      - human-handoff
+      - showing-assistance
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: If so, configure the agent to escalate to a human agent.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to be escalated to a human agent for showings
+        so that I can get personalized assistance
+      type: story
+    - acceptance_criteria:
+      - Human agents receive AI-suggested responses during chats
+      - Assistance includes relevant property information and policies
+      - Suggestions are contextual to the current conversation
+      assignee: null
+      derived: false
+      description: Provide human agents with AI-powered assistance and suggestions
+        while they handle escalated customer conversations.
+      epic_id: null
+      id: US-30
+      labels:
+      - human-agent-assistance
+      - ai-suggestions
+      - chat-support
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The human agent would like assistance in replying to the customer
+        they are chatting with.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a human agent, I want AI assistance while chatting with customers
+        so that I can provide better responses
+      type: story
+    - acceptance_criteria:
+      - Agent provides accurate guest policy information
+      - Responses cite relevant handbook sections
+      - Information covers duration limits and approval processes
+      assignee: null
+      derived: false
+      description: Agent answers questions about property guest policies using tenant
+        handbook information.
+      epic_id: null
+      id: US-31
+      labels:
+      - guest-policies
+      - handbook-queries
+      - tenant-rules
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: I have a friend that wants to stay with me for 2 weeks. What
+        are the rules for that?
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to ask about guest policies so that I understand
+        visitation rules
+      type: story
+    - acceptance_criteria:
+      - Agent provides pet policy information by property location
+      - Responses include size and breed restrictions
+      - Information covers pet deposits and approval requirements
+      assignee: null
+      derived: false
+      description: Agent answers questions about pet policies including size, breed,
+        and location-specific restrictions using handbook data.
+      epic_id: null
+      id: US-32
+      labels:
+      - pet-policies
+      - handbook-queries
+      - location-specific
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: I have a 50 lb Labrador Retriever. Can I have him in my apartment
+        in San Francisco?
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to ask about pet policies so that I understand
+        animal restrictions
+      type: story
+    - acceptance_criteria:
+      - Agent provides storage policy information by location
+      - Responses cover specific item types like bicycles
+      - Information includes alternative storage options if applicable
+      assignee: null
+      derived: false
+      description: Agent answers questions about personal item storage policies including
+        bicycles and other belongings using handbook data.
+      epic_id: null
+      id: US-33
+      labels:
+      - storage-policies
+      - handbook-queries
+      - item-restrictions
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Can I keep my bicycle in my apartment in Portland?
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a guest user, I want to ask about storage policies so that I understand
+        item restrictions
+      type: story
+    - acceptance_criteria:
+      - System detects user authentication status
+      - Authenticated users route to tenant concierge agent
+      - Guest users route to property inquiry agent
+      - Clear separation of agent capabilities and data access
+      assignee: null
+      derived: false
+      description: Configure routing logic to direct authenticated users to tenant
+        concierge agent and guest users to property inquiry agent.
+      epic_id: null
+      id: US-34
+      labels:
+      - user-routing
+      - authentication
+      - agent-separation
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Create an authenticated agent for current residents... Explain
+        in your solution how you would route authenticated vs. guest users
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a system administrator, I want separate agents for authenticated vs
+        guest users so that appropriate functionality is available to each user type
+      type: story
+    - acceptance_criteria:
+      - System verifies user is active tenant before processing requests
+      - Inactive or non-tenant users receive appropriate error messages
+      - Verification includes lease status and payment standing
+      assignee: null
+      derived: false
+      description: System validates tenant status and active residency before allowing
+        access to tenant-specific support functions.
+      epic_id: null
+      id: US-35
+      labels:
+      - tenant-verification
+      - access-control
+      - status-validation
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Verify the user is an active tenant before initiating any action
+        on their issues.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a tenant, I want to verify my active status before getting support
+        so that only current residents can access tenant services
+      type: story
+    - acceptance_criteria:
+      - Agent searches knowledge articles for relevant information
+      - Responses cite one or more applicable articles
+      - Articles cover common tenant issues and procedures
+      assignee: null
+      derived: false
+      description: Configure tenant concierge agent to access and cite relevant knowledge
+        articles when responding to support questions.
+      epic_id: null
+      id: US-36
+      labels:
+      - knowledge-articles
+      - support-responses
+      - citation
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Use knowledge articles (to be created by participants) to support
+        users and answer questions. Cite one or more articles
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a tenant, I want agents to use knowledge articles for support so that
+        I get consistent and accurate information
+      type: story
+    - acceptance_criteria:
+      - Cases are created when agent cannot resolve issues
+      - Case includes conversation history and tenant information
+      - System tracks case creation and assignment
+      assignee: null
+      derived: false
+      description: When agent cannot resolve tenant issues, system automatically creates
+        support cases for human agent follow-up.
+      epic_id: null
+      id: US-37
+      labels:
+      - case-creation
+      - escalation
+      - unresolved-issues
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: If a user's problem is not resolved, design an action... to
+        create a case to provide support.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a tenant, I want unresolved issues to create support cases so that
+        I get follow-up assistance
+      type: story
+    - acceptance_criteria:
+      - Agent classifies issues by severity (low, medium, high)
+      - Faucet leaks are assigned low priority
+      - Power outages are assigned high priority
+      - Priority affects case routing and SLA
+      assignee: null
+      derived: false
+      description: Configure agent to assess issue severity and automatically set
+        appropriate case priority levels for different maintenance problems.
+      epic_id: null
+      id: US-38
+      labels:
+      - case-prioritization
+      - severity-assessment
+      - maintenance-issues
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Configure the agent to understand the severity of the issue
+        and appropriately prioritize the case (Hint - Faucet is low priority, no power
+        is high priority)
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want cases prioritized by issue severity so
+        that critical problems get immediate attention
+      type: story
+    - acceptance_criteria:
+      - Agent checks maintenance history for similar incidents
+      - Replacement recommendation triggers after 3+ incidents in 12 months
+      - Recommendation includes cost-benefit analysis
+      - Property manager receives notification of recommendation
+      assignee: null
+      derived: false
+      description: Agent analyzes past maintenance history and recommends equipment
+        replacement when same issue occurs more than 3 times in a year.
+      epic_id: null
+      id: US-39
+      labels:
+      - proactive-maintenance
+      - history-analysis
+      - replacement-recommendations
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Design proactive functionality in the agent to check past history
+        of maintenance and recommend replacement if the same type of incident happened
+        more than 3 times
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a property manager, I want proactive replacement recommendations based
+        on maintenance history so that recurring issues can be prevented
+      type: story
+    - acceptance_criteria:
+      - System tracks incident count by type per unit over past 12 months
+      - Agent recommends replacement when same incident type exceeds 3 occurrences
+      - Recommendation includes incident history as supporting evidence
+      - Replacement recommendation is clearly communicated to tenant
+      assignee: null
+      derived: false
+      description: Agent should analyze maintenance history and recommend replacement
+        when the same type of incident occurs more than 3 times in the past year.
+      epic_id: null
+      id: US-40
+      labels:
+      - maintenance
+      - recommendations
+      - history-tracking
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: recommend replacement if the same type of incident happened
+        more than 3 times in the past year (e.g., multiple faucet leaks)
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Agent, I want to track maintenance history for repair recommendations
+        so that I can suggest replacement after 3+ incidents
+      type: story
+    - acceptance_criteria:
+      - Agent detects when user is not authenticated
+      - System prevents maintenance actions for unauthenticated users
+      - User receives polite prompt to login before continuing
+      - No maintenance actions are executed without proper authentication
+      assignee: null
+      derived: false
+      description: When a guest user attempts to report maintenance issues, the agent
+        should detect they are not logged in and politely request authentication.
+      epic_id: null
+      id: US-41
+      labels:
+      - authentication
+      - guest-users
+      - security
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: agent should know that the user is not logged in and not execute
+        the actions in the prior scenario
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Guest User, I want to be prompted to login when requesting maintenance
+        so that the system can verify my identity
+      type: story
+    - acceptance_criteria:
+      - Agent verifies user has active tenant status
+      - System blocks maintenance actions for inactive tenants
+      - Verification occurs before any maintenance workflow begins
+      - Clear error message displayed for inactive tenants
+      assignee: null
+      derived: false
+      description: System must validate that the logged-in user is an active tenant
+        before allowing them to initiate maintenance actions.
+      epic_id: null
+      id: US-42
+      labels:
+      - tenant-verification
+      - security
+      - maintenance
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Verify the user is an active tenant before initiating any action
+        on their issues
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Agent, I want to verify tenant status before processing
+        maintenance requests so that only active tenants can create issues
+      type: story
+    - acceptance_criteria:
+      - Agent analyzes text sentiment to identify frustrated customers
+      - System triggers escalation workflow for angry tenants
+      - Handoff includes acknowledgment of customer's issue
+      - Escalation is graceful and professional in tone
+      assignee: null
+      derived: false
+      description: Agent should analyze customer sentiment and gracefully hand off
+        angry or frustrated tenants to human agents while acknowledging their concerns.
+      epic_id: null
+      id: US-43
+      labels:
+      - sentiment-analysis
+      - escalation
+      - customer-service
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Design the agent to understand customer sentiment and hand off
+        to the human agent gracefully
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Agent, I want to detect customer sentiment and escalate
+        angry tenants to humans so that upset customers receive appropriate attention
+      type: story
+    - acceptance_criteria:
+      - Agent operates 24/7 without human intervention
+      - Cases can be created outside business hours
+      - System captures all necessary case information
+      - Configuration exists in Experience Cloud for always-on availability
+      assignee: null
+      derived: false
+      description: Agent should be available around the clock to create maintenance
+        cases when human agents are not available, such as at 2 AM.
+      epic_id: null
+      id: US-44
+      labels:
+      - 24x7-availability
+      - case-creation
+      - experience-cloud
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: agent available all the time to create the case -( In experience
+        cloud add the configuration)
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Tenant, I want to create maintenance cases 24/7 even when human
+        agents are unavailable so that my issues are documented
+      type: story
+    - acceptance_criteria:
+      - Agent verifies user is active tenant before door unlock
+      - Additional security validation steps are required
+      - System prevents unauthorized door access attempts
+      - All security checks must pass before unlock request
+      assignee: null
+      derived: false
+      description: System must implement multi-step verification process before allowing
+        remote door unlock requests to prevent unauthorized access.
+      epic_id: null
+      id: US-45
+      labels:
+      - security
+      - door-unlock
+      - tenant-verification
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Design the security and transactional capabilities. Verify the
+        user is an active tenant before opening the door
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Security Administrator, I want to verify tenant identity before
+        remote door unlock so that only authorized users can access apartments
+      type: story
+    - acceptance_criteria:
+      - OTP is generated and sent to tenant's registered contact method
+      - Agent requires OTP entry before proceeding with unlock
+      - OTP expires after reasonable time period
+      - Failed OTP attempts are logged and limited
+      assignee: null
+      derived: false
+      description: Agent should send a one-time password to the tenant as an additional
+        security step when processing door unlock requests.
+      epic_id: null
+      id: US-46
+      labels:
+      - otp
+      - security
+      - door-unlock
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Design the agent to have an additional security step on sending
+        an OTP to the customer
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Tenant, I want to receive an OTP for door unlock requests so that
+        my identity is additionally verified
+      type: story
+    - acceptance_criteria:
+      - System validates tenant-apartment relationship before unlock
+      - Agent prevents cross-apartment access attempts
+      - Door unlock restricted to tenant's authorized units only
+      - Anti-jailbreak protections prevent system manipulation
+      assignee: null
+      derived: false
+      description: Agent must include safeguards to ensure door unlock requests only
+        work for the tenant's specific apartment unit.
+      epic_id: null
+      id: US-47
+      labels:
+      - security
+      - apartment-validation
+      - jailbreak-prevention
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: How do you prevent the agent from opening the wrong apartment
+        door? Configure the agent to prevent 'jailbreak.'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Manager, I want the system to prevent opening wrong apartment
+        doors so that tenants only access their authorized units
+      type: story
+    - acceptance_criteria:
+      - Device ID is fetched from Salesforce Lease_Payment__c records
+      - System never accepts device ID from user input
+      - Query includes SmartRent_Device_Id__c field
+      - Device ID is validated before use in unlock requests
+      assignee: null
+      derived: false
+      description: System must retrieve SmartRent Device ID directly from Salesforce
+        records, never from user input, to ensure security and accuracy.
+      epic_id: null
+      id: US-48
+      labels:
+      - integration
+      - smartrent
+      - device-id
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: SmartRent Device ID fetched directly from Salesforce — never
+        from user input
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Integrator, I want to fetch SmartRent Device ID from Salesforce
+        so that door unlock requests use verified device information
+      type: story
+    - acceptance_criteria:
+      - POST request sent to /devices/{deviceId}/unlock endpoint
+      - Payload includes verified tenant Contact ID and apartment record
+      - Request uses secure authentication with SmartRent
+      - System handles API response codes appropriately
+      assignee: null
+      derived: false
+      description: System compiles verified tenant and device information into secure
+        POST request to SmartRent API endpoint for door unlock.
+      epic_id: null
+      id: US-49
+      labels:
+      - api-integration
+      - smartrent
+      - security
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: secure POST request to the SmartRent API endpoint POST /devices/{deviceId}/unlock
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Integrator, I want to send secure POST requests to SmartRent
+        API so that door unlock commands are transmitted safely
+      type: story
+    - acceptance_criteria:
+      - Agent accesses tenant handbook PDF for pricing information
+      - Current keyfob replacement cost is displayed to tenant
+      - Pricing information is accurate and up-to-date
+      - Cost is presented clearly before order confirmation
+      assignee: null
+      derived: false
+      description: Agent should reference the tenant handbook PDF to provide accurate
+        keyfob replacement costs to tenants who request this information.
+      epic_id: null
+      id: US-50
+      labels:
+      - keyfob
+      - pricing
+      - handbook-integration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Look at the tenant handbook (PDF) and give the cost of the keyfob
+        to the user
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Tenant, I want to check keyfob replacement costs from the tenant
+        handbook so that I know the price before ordering
+      type: story
+    - acceptance_criteria:
+      - Frontend displays keyfob cost and order details
+      - OK/Approve button is clearly visible and functional
+      - Order is not processed until tenant confirms approval
+      - Confirmation action triggers downstream order processing
+      assignee: null
+      derived: false
+      description: Tenant can review keyfob cost and click OK/Approve button in the
+        frontend interface to confirm their order.
+      epic_id: null
+      id: US-51
+      labels:
+      - keyfob
+      - frontend
+      - order-approval
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The user clicks "OK/Approve" on your frontend
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Tenant, I want to approve keyfob orders through the frontend so
+        that I can confirm my purchase decision
+      type: story
+    - acceptance_criteria:
+      - POST request sent to MuleSoft experience/process API
+      - 'Payload includes status: approved, fobType: Standard, quantity: 1'
+      - Request is triggered only after tenant approval
+      - API call includes proper authentication and headers
+      assignee: null
+      derived: false
+      description: When tenant approves keyfob order, system sends POST request to
+        MuleSoft experience/process API with order payload.
+      epic_id: null
+      id: US-52
+      labels:
+      - mulesoft
+      - keyfob
+      - api-integration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: 'POST request is sent to your MuleSoft experience/process API
+        with the payload: {"status": "approved", "fobType": "Standard", "quantity":
+        1}'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Integrator, I want to send keyfob order data to MuleSoft
+        API so that approved orders are processed
+      type: story
+    - acceptance_criteria:
+      - API checks status field for 'approved' value
+      - Only approved orders proceed to next step
+      - Rejected or pending orders are handled appropriately
+      - Condition evaluation is logged for audit purposes
+      assignee: null
+      derived: false
+      description: MuleSoft Process API evaluates the approval status condition and
+        only processes orders with approved status.
+      epic_id: null
+      id: US-53
+      labels:
+      - mulesoft
+      - process-api
+      - approval-logic
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The Process API evaluates the condition. Because it's approved
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Process API, I want to evaluate approval conditions so that only
+        approved orders proceed to SmartRent
+      type: story
+    - acceptance_criteria:
+      - Data transformation occurs only for approved orders
+      - Output format matches SmartRent API specifications
+      - All required fields are properly mapped and formatted
+      - Transformation handles data validation and error cases
+      assignee: null
+      derived: false
+      description: Process API transforms approved order data into the specific format
+        expected by SmartRent system before making external API call.
+      epic_id: null
+      id: US-54
+      labels:
+      - mulesoft
+      - data-transformation
+      - smartrent
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: it transforms the data into the format SmartRent expects and
+        calls the SmartRent System API
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Process API, I want to transform order data for SmartRent format
+        so that external system receives compatible payload
+      type: story
+    - acceptance_criteria:
+      - API returns 201 Created HTTP status code
+      - Response includes unique SmartRent Order ID
+      - Order ID can be used for tracking purposes
+      - Mock endpoint simulates real SmartRent API behavior
+      assignee: null
+      derived: false
+      description: SmartRent System API mock returns 201 Created status with SmartRent
+        Order ID when keyfob orders are successfully processed.
+      epic_id: null
+      id: US-55
+      labels:
+      - system-api
+      - smartrent
+      - order-tracking
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The System API (Mock) returns a 201 Created status with a SmartRent
+        Order ID
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System API, I want to return SmartRent Order ID so that successful
+        keyfob orders can be tracked
+      type: story
+    - acceptance_criteria:
+      - Process API receives approval condition data
+      - System evaluates the condition against business rules
+      - System returns approval/rejection decision
+      - Decision triggers appropriate downstream action
+      assignee: null
+      derived: false
+      description: The Process API must evaluate approval conditions to determine
+        if an order should be sent to SmartRent.
+      epic_id: null
+      id: US-56
+      labels:
+      - process-api
+      - approval-workflow
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The Process API evaluates the condition.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to evaluate approval conditions in the Process API
+        so that I can determine whether to proceed with SmartRent ordering
+      type: story
+    - acceptance_criteria:
+      - System transforms internal data format to SmartRent schema
+      - All required SmartRent fields are mapped correctly
+      - Data validation occurs before transformation
+      - Transformed data is validated against SmartRent contract
+      assignee: null
+      derived: false
+      description: When an order is approved, the system must transform the data into
+        the format expected by SmartRent before making the API call.
+      epic_id: null
+      id: US-57
+      labels:
+      - data-transformation
+      - smartrent-integration
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: it transforms the data into the format SmartRent expects and
+        calls the SmartRent System API
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to transform approved order data into SmartRent format
+        so that external system can process the order
+      type: story
+    - acceptance_criteria:
+      - System makes HTTP calls to SmartRent System API
+      - API calls include properly formatted order data
+      - System handles API response codes appropriately
+      - Failed API calls are logged and handled gracefully
+      assignee: null
+      derived: false
+      description: The system must make API calls to SmartRent System API to submit
+        approved and transformed orders.
+      epic_id: null
+      id: US-58
+      labels:
+      - smartrent-integration
+      - api-calls
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: calls the SmartRent System API
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to call the SmartRent System API so that I can submit
+        orders to the external system
+      type: story
+    - acceptance_criteria:
+      - System receives 201 Created status from SmartRent API
+      - SmartRent Order ID is extracted from response
+      - Order ID is stored in system for future reference
+      - Success status is logged and communicated
+      assignee: null
+      derived: false
+      description: When SmartRent accepts an order, the system must capture and store
+        the returned Order ID for tracking purposes.
+      epic_id: null
+      id: US-59
+      labels:
+      - smartrent-integration
+      - order-tracking
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The System API (Mock) returns a 201 Created status with a SmartRent
+        Order ID
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to receive and process SmartRent Order ID from successful
+        submissions so that I can track order status
+      type: story
+    - acceptance_criteria:
+      - UI provides order approval functionality
+      - Approval action triggers process layer
+      - User receives confirmation of approval action
+      - Approved orders are queued for SmartRent processing
+      assignee: null
+      derived: false
+      description: Users need the ability to approve orders through the user interface,
+        which triggers the automated SmartRent integration workflow.
+      epic_id: null
+      id: US-60
+      labels:
+      - user-interface
+      - approval-workflow
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: When the user approves the order in our UI, it triggers our
+        process layer
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a User, I want to approve orders in the UI so that they can be automatically
+        processed through SmartRent
+      type: story
+    - acceptance_criteria:
+      - Mock endpoints replicate SmartRent API contract behavior
+      - Mocks support end-to-end testing scenarios
+      - Mock responses include realistic success and error cases
+      - No actual SmartRent production calls are made during testing
+      assignee: null
+      derived: false
+      description: The system provides fully mocked SmartRent behavior using MuleSoft
+        mock endpoints based on API contracts for testing purposes.
+      epic_id: null
+      id: US-61
+      labels:
+      - testing
+      - mocking
+      - smartrent-integration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: we have fully mocked its behavior using a MuleSoft mock endpoint
+        based on the API contract
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Developer, I want to use mocked SmartRent endpoints so that I can
+        test integration without incurring production costs
+      type: story
+    - acceptance_criteria:
+      - Mock endpoints validate transformed data format
+      - Data mapping errors are detected and reported
+      - Test scenarios cover various data transformation cases
+      - Validation results are logged for debugging
+      assignee: null
+      derived: false
+      description: The mocked SmartRent endpoints allow validation of data transformation
+        logic without affecting production systems.
+      epic_id: null
+      id: US-62
+      labels:
+      - testing
+      - data-validation
+      - transformation
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: validate data transformations, and handle error scenarios without
+        making live, billing-incurring calls
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Developer, I want to validate data transformations through mocked
+        endpoints so that I can ensure correct mapping
+      type: story
+    - acceptance_criteria:
+      - Property manager can request tenant summary via agent interface
+      - Agent accesses Case, Apartment, and Lease Payment data
+      - Summary includes relevant rental history information
+      - Response is formatted for easy review
+      assignee: null
+      derived: false
+      description: Property managers need to use the internal agent to request and
+        receive tenant summaries based on rental history data.
+      epic_id: null
+      id: US-63
+      labels:
+      - ops-copilot
+      - tenant-management
+      - data-summary
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The property manager uses the internal agent to request a summary
+        for a tenant
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Manager, I want to request tenant summaries from the Ops
+        Copilot so that I can review rental history
+      type: story
+    - acceptance_criteria:
+      - Einstein Trust Layer settings configured for CCPA compliance
+      - California residents' employer data is filtered from summaries
+      - System identifies California residency accurately
+      - Protected information is not included in any client communications
+      assignee: null
+      derived: false
+      description: The system must ensure California residents' employer information
+        is protected under CCPA through Einstein Trust Layer settings.
+      epic_id: null
+      id: US-64
+      labels:
+      - privacy
+      - ccpa
+      - trust-layer
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: For California residents, their employer info is protected under
+        CCPA
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to protect California residents' employer information
+        per CCPA so that privacy regulations are followed
+      type: story
+    - acceptance_criteria:
+      - Agent analyzes tenant late payment history
+      - Professional warm email drafted for zero late payments
+      - Strict professional email drafted for 1-3 late payments with 10% rent increase
+      - Polite decline email drafted for more than 3 late payments
+      assignee: null
+      derived: false
+      description: The agent should automatically draft different types of renewal
+        emails based on tenant payment history patterns.
+      epic_id: null
+      id: US-65
+      labels:
+      - ops-copilot
+      - email-generation
+      - payment-history
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: the agent should help draft a 'professional but warm' email
+        when the manager asks for a renewal
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Manager, I want the agent to draft renewal emails based
+        on payment history so that I can send appropriate communications
+      type: story
+    - acceptance_criteria:
+      - Agent decision logic excludes protected characteristics
+      - Renewal decisions based only on payment history and lease terms
+      - System logs decision factors for audit purposes
+      - Fair housing compliance is maintained in all recommendations
+      assignee: null
+      derived: false
+      description: The agent must be designed to prevent renewal decisions based on
+        protected characteristics like race or orientation.
+      epic_id: null
+      id: US-66
+      labels:
+      - compliance
+      - fair-housing
+      - ops-copilot
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: how would you design your agent to prevent offering/declining
+        a renewal offer based on things like race, orientation
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to prevent discriminatory renewal decisions so that
+        fair housing laws are followed
+      type: story
+    - acceptance_criteria:
+      - Agent generates weekly summary reports automatically
+      - Summaries include only properties under specific manager's purview
+      - Data from Apartment, Lease Payment, and Case objects is included
+      - Reports are delivered consistently each week
+      assignee: null
+      derived: false
+      description: Property managers need automated weekly summaries of activity for
+        properties under their management.
+      epic_id: null
+      id: US-67
+      labels:
+      - ops-copilot
+      - reporting
+      - weekly-summary
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: A Property Manager needs a weekly review of activity in their
+        property
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Property Manager, I want to receive weekly property activity summaries
+        so that I can track my portfolio performance
+      type: story
+    - acceptance_criteria:
+      - System identifies manager's assigned jurisdiction
+      - Data access is filtered by property location
+      - Manager can only view properties in their state
+      - Cross-jurisdiction access is prevented
+      assignee: null
+      derived: false
+      description: The system must ensure property managers only access data for properties
+        within their assigned jurisdiction (CA, OR, WA).
+      epic_id: null
+      id: US-68
+      labels:
+      - data-security
+      - access-control
+      - jurisdiction
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: The agent should only include properties that are under the
+        purview of that manager
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to restrict property data access by manager jurisdiction
+        so that managers only see relevant properties
+      type: story
+    - acceptance_criteria:
+      - System documents which Einstein actions are metered vs unmetered
+      - Cost implications of scheduled flows are understood
+      - Alternative cost-minimizing designs are identified
+      - Flex Credits consumption is tracked and reported
+      assignee: null
+      derived: false
+      description: The system must differentiate between metered and unmetered Einstein
+        actions to understand cost implications.
+      epic_id: null
+      id: US-69
+      labels:
+      - cost-optimization
+      - einstein-actions
+      - metering
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Explain the difference between metered and unmetered Einstein
+        actions
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to understand Einstein action metering
+        so that I can optimize costs
+      type: story
+    - acceptance_criteria:
+      - Data classification fields are configured at object level
+      - PII data types (SSN, income) are properly classified
+      - Trust Layer prevents exposure of sensitive information
+      - Configuration follows data protection best practices
+      assignee: null
+      derived: false
+      description: The system must configure Einstein Trust Layer to handle PII like
+        SSN and income data through proper data classification settings.
+      epic_id: null
+      id: US-70
+      labels:
+      - trust-layer
+      - pii-protection
+      - data-classification
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: How do you configure the Einstein Trust Layer to handle these
+        risks? - Data classification setting
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to configure Einstein Trust Layer for PII data classification
+        so that sensitive information is protected
+      type: story
+    - acceptance_criteria:
+      - Data classification field can be selected at object level
+      - Einstein Trust Layer applies appropriate security controls based on classification
+      - Sensitive data like SSNs are properly classified and protected
+      - Configuration interface allows selection of data classification fields
+      assignee: null
+      derived: false
+      description: Configure data classification settings at the object level within
+        Einstein Trust Layer to handle data privacy and security risks.
+      epic_id: null
+      id: US-71
+      labels:
+      - security
+      - data-classification
+      - einstein-trust-layer
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: configure the Einstein Trust Layer to handle these risks? -
+        Data classification setting and object level
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to configure Einstein Trust Layer data
+        classification settings so that sensitive data is properly protected
+      type: story
+    - acceptance_criteria:
+      - Security agent can compare permissions between two specified users
+      - Agent can identify specific permission differences
+      - Agent provides clear explanation of why access differs
+      - Agent can analyze opportunity edit permissions specifically
+      assignee: null
+      derived: false
+      description: Configure a Security agent that can analyze and compare permissions
+        between different users to explain why one user has different access than
+        another.
+      epic_id: null
+      id: US-72
+      labels:
+      - security
+      - permissions
+      - agent-configuration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: configure a 'Security' agent to compare permissions and explain
+        the access difference
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Security Administrator, I want to configure a Security agent to
+        compare user permissions so that access differences can be explained
+      type: story
+    - acceptance_criteria:
+      - Test plan covers all agent functionality
+      - Testing can be performed in sandbox environment
+      - Test results validate agent behavior meets requirements
+      - Testing process is documented and repeatable
+      assignee: null
+      derived: false
+      description: Establish testing procedures for agents built in developer sandbox
+        to ensure they function correctly before moving to production.
+      epic_id: null
+      id: US-73
+      labels:
+      - testing
+      - sandbox
+      - quality-assurance
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Explain how you would test the agent
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a QA Tester, I want to test agents in sandbox environment so that
+        functionality is validated before production deployment
+      type: story
+    - acceptance_criteria:
+      - Performance dashboard shows key agent metrics
+      - Metrics are accessible to senior stakeholders
+      - Data demonstrates agent effectiveness and usage
+      - Reporting includes relevant KPIs for business evaluation
+      assignee: null
+      derived: false
+      description: Provide visibility into agent performance metrics and analytics
+        for senior customer stakeholders to assess agent effectiveness.
+      epic_id: null
+      id: US-74
+      labels:
+      - reporting
+      - analytics
+      - stakeholder-visibility
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: show senior customer stakeholders how your agents are performing
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Senior Stakeholder, I want to see agent performance metrics so that
+        I can evaluate how well the agents are performing
+      type: story
+    - acceptance_criteria:
+      - Agent can be successfully deployed from source to target sandbox
+      - All supporting data (KM articles, Account/Contact info) is available in target
+        org
+      - Deployed agent functions correctly in target environment
+      - Deployment process can be demonstrated to stakeholders
+      assignee: null
+      derived: false
+      description: Enable deployment of agents from source sandbox to target sandbox
+        with all supporting data and demonstrate functionality.
+      epic_id: null
+      id: US-75
+      labels:
+      - deployment
+      - sandbox-management
+      - environment-promotion
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: deploy the agent from one sandbox to another and demo it works
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Developer, I want to deploy agents from one sandbox to another so
+        that solutions can be promoted through environments
+      type: story
+    - acceptance_criteria:
+      - KM articles are available in target org
+      - Account and Contact information is present in target org
+      - All agent dependencies are satisfied in target environment
+      - Data seeding process is documented and repeatable
+      assignee: null
+      derived: false
+      description: Ensure that all supporting data like knowledge management articles
+        and account/contact information is available in the target org when agents
+        are deployed.
+      epic_id: null
+      id: US-76
+      labels:
+      - data-migration
+      - deployment-dependencies
+      - org-setup
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: ensure that it is available in the target org). It is recommended
+        that you spin up a second org
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to ensure supporting data is available
+        in target org so that deployed agents have necessary context
+      type: story
+    - acceptance_criteria:
+      - Second org can be created using same template as main org
+      - Data seeding process replicates main org data structure
+      - Template configuration matches main org setup
+      - Org setup process is documented for repeatability
+      assignee: null
+      derived: false
+      description: Create a second Salesforce org using the same template and seed
+        it with the same data as the main org to simplify deployment testing.
+      epic_id: null
+      id: US-77
+      labels:
+      - org-management
+      - environment-setup
+      - deployment-testing
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: spin up a second org with the same template and seed it with
+        the same data as your main org to simplicity
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to spin up a second org with the same
+        template so that deployment testing is simplified
+      type: story
+    - acceptance_criteria:
+      - Org is created using the Agentforce Readiness Capstone template
+      - Org includes Agentforce capability
+      - Org includes Data Cloud functionality
+      - Org includes fully configured Sales Cloud and Service Cloud
+      assignee: null
+      derived: false
+      description: Create a new Orgfarm organization using the Agentforce Readiness
+        Capstone template that includes Agentforce, Data Cloud, Sales Cloud, and Service
+        Cloud.
+      epic_id: null
+      id: US-78
+      labels:
+      - org-setup
+      - environment-preparation
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'spin up an Orgfarm org with the following template: Agentforce,
+        Data Cloud, Sales Cloud & Service Cloud'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to spin up an Orgfarm org with the
+        specified template so that I can prepare the demo environment
+      type: story
+    - acceptance_criteria:
+      - Expiry date is updated to at least 2 months in the future
+      - Org remains accessible for the full project duration
+      - Expiry date change is confirmed and saved
+      - Team receives notification of the updated expiry date
+      assignee: null
+      derived: false
+      description: Set the organization expiration date to a couple of months in the
+        future to ensure continued access throughout the project lifecycle.
+      epic_id: null
+      id: US-79
+      labels:
+      - org-management
+      - configuration
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: update the expiry date to a couple of months in the future so
+        that org stays valid for the duration
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to update the org expiry date so that
+        the org remains valid for the project duration
+      type: story
+    - acceptance_criteria:
+      - Org opens successfully when clicking the Open button
+      - User can log into the org with appropriate credentials
+      - All included components (Agentforce, Data Cloud, Sales/Service Cloud) are
+        accessible
+      - Org interface loads without errors
+      assignee: null
+      derived: false
+      description: Access the newly created Orgfarm organization to start the setup
+        and configuration process.
+      epic_id: null
+      id: US-80
+      labels:
+      - org-access
+      - setup
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Click Open to open the org
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to open the created org so that I can
+        begin configuration
+      type: story
+    - acceptance_criteria:
+      - Unmanaged package installs successfully in Org Farm org
+      - All custom objects from the package are created
+      - All custom fields are added to appropriate objects
+      - Page layouts are updated with new fields
+      assignee: null
+      derived: false
+      description: Install the specified unmanaged package to add custom objects,
+        fields, page layouts, and tabs necessary for the badge requirements.
+      epic_id: null
+      id: US-81
+      labels:
+      - package-installation
+      - customization
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Install the unmanaged package to ensure that your org contains
+        the custom objects, fields, page layouts, and tabs
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to install the unmanaged package so
+        that the org contains required custom objects and fields
+      type: story
+    - acceptance_criteria:
+      - Custom tabs are visible in the app launcher
+      - Tabs are accessible to appropriate user profiles
+      - Clicking tabs navigates to correct custom objects
+      - Tab permissions are properly configured
+      assignee: null
+      derived: false
+      description: Ensure that custom tabs from the unmanaged package are available
+        and accessible for navigation to new custom functionality.
+      epic_id: null
+      id: US-82
+      labels:
+      - navigation
+      - tabs
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: custom objects, fields, page layouts, and tabs required for
+        the badge
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to access custom tabs so that I can
+        navigate to new functionality
+      type: story
+    - acceptance_criteria:
+      - Package appears in installed packages list
+      - All expected custom objects are present
+      - All expected fields are created
+      - No installation errors are reported
+      assignee: null
+      derived: false
+      description: Validate that the unmanaged package installation completed successfully
+        and all expected components are present.
+      epic_id: null
+      id: US-83
+      labels:
+      - verification
+      - package-management
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Confirm that the package is installed
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to confirm package installation so
+        that I can verify all components are properly deployed
+      type: story
+    - acceptance_criteria:
+      - Person Accounts feature is enabled in Setup
+      - Person Account record type is available
+      - Users can create Person Account records
+      - Person Accounts appear in account list views
+      assignee: null
+      derived: false
+      description: Enable the Person Accounts feature to allow the system to manage
+        individual customers alongside business accounts.
+      epic_id: null
+      id: US-84
+      labels:
+      - person-accounts
+      - feature-enablement
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Enable Person Accounts: Navigate to Setup > Person Accounts
+        and enable this feature'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to enable Person Accounts so that I
+        can manage individual customer records
+      type: story
+    - acceptance_criteria:
+      - External Account field is visible on Person Account layout
+      - Field is positioned appropriately on the layout
+      - Field is editable by appropriate users
+      - Field accepts and displays external account identifiers
+      assignee: null
+      derived: false
+      description: Ensure the Person Account page layout contains the External Account
+        field for proper data integration and identification.
+      epic_id: null
+      id: US-85
+      labels:
+      - layout-configuration
+      - person-accounts
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Verify that the Person Account layout includes the External
+        Account field
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to verify Person Account layout includes
+        External Account field so that external system integration works properly
+      type: story
+    - acceptance_criteria:
+      - System admin profile can read all custom objects from package
+      - System admin profile can edit all custom fields from package
+      - All tabs are visible to system admin profile
+      - No permission errors occur when accessing package components
+      assignee: null
+      derived: false
+      description: Ensure the system administrator profile has appropriate permissions
+        to access all objects and fields from the installed unmanaged package.
+      epic_id: null
+      id: US-86
+      labels:
+      - security
+      - permissions
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: confirm that your system administrator profile has access to
+        all the objects and fields installed from the unmanaged package
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to configure security for system administrator
+        profile so that I can access all package objects and fields
+      type: story
+    - acceptance_criteria:
+      - Data Import Wizard successfully processes all data files
+      - All records are created without errors
+      - Data relationships are properly maintained
+      - Import summary shows successful record counts
+      assignee: null
+      derived: false
+      description: Import template data into standard and custom objects to provide
+        foundational data for building and testing the agent.
+      epic_id: null
+      id: US-87
+      labels:
+      - data-import
+      - setup
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Use the Data Import Wizard to load the template data
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load structured data using Data
+        Import Wizard so that the system has initial data for agent building
+      type: story
+    - acceptance_criteria:
+      - External ID fields are correctly identified during import mapping
+      - File External IDs map to object External ID fields
+      - Data relationships are preserved through External ID matching
+      - No duplicate records are created due to improper ID mapping
+      assignee: null
+      derived: false
+      description: Ensure External ID fields in import files are correctly mapped
+        to External ID fields on objects for proper data loading and relationship
+        management.
+      epic_id: null
+      id: US-88
+      labels:
+      - data-mapping
+      - external-ids
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: It is important that you map the External IDs in the file to
+        the External ID on the object
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to map External IDs during data import
+        so that data relationships are properly maintained
+      type: story
+    - acceptance_criteria:
+      - 1,000 Person Account records are successfully imported
+      - Records include both current renters and potential renters
+      - All required fields are populated
+      - Records are accessible through standard Person Account views
+      assignee: null
+      derived: false
+      description: Import 1,000 Person Account records representing current renters
+        and potential renters for the property management system.
+      epic_id: null
+      id: US-89
+      labels:
+      - data-import
+      - person-accounts
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Person Accounts (1,000 records): The renters and potential
+        renters'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load Person Accounts data so that
+        the system has renter and potential renter records
+      type: story
+    - acceptance_criteria:
+      - 51 Apt Location records are successfully imported
+      - Each record designates a specific apartment complex in a city
+      - Location data is properly formatted and accessible
+      - Records can be used for apartment assignment and reporting
+      assignee: null
+      derived: false
+      description: Import 51 Apt Location records that designate specific apartment
+        complexes in various cities for the property management system.
+      epic_id: null
+      id: US-90
+      labels:
+      - data-import
+      - locations
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Apt Location (51 records): Designates the specific apartment
+        complex in a city'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load Apt Location data so that the
+        system knows apartment complex locations
+      type: story
+    - acceptance_criteria:
+      - 1,500 Apartment records are successfully imported
+      - Each record represents an actual rentable unit
+      - Units are properly associated with their apartment locations
+      - Unit data includes all necessary rental information
+      assignee: null
+      derived: false
+      description: Import 1,500 Apartment records representing the actual rentable
+        units available in the property management system.
+      epic_id: null
+      id: US-91
+      labels:
+      - data-import
+      - inventory
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Apartments (1,500 records): The actual rentable units'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load Apartments data so that the
+        system has rentable unit inventory
+      type: story
+    - acceptance_criteria:
+      - Sample Lease Payment records are successfully imported
+      - Payment data is properly formatted and accessible
+      - Records can serve as templates for additional payment data
+      - Data supports agent configuration and testing
+      assignee: null
+      derived: false
+      description: Import sample Lease Payment data to provide initial payment records
+        that can be expanded during agent configuration.
+      epic_id: null
+      id: US-92
+      labels:
+      - data-import
+      - payments
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Lease Payments: Sample data to get you started. Add more as
+        part of your agent configuration'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load Lease Payments sample data
+        so that I have initial payment records for agent configuration
+      type: story
+    - acceptance_criteria:
+      - Sample Move In Specials records are successfully imported
+      - Special offer data is properly formatted and accessible
+      - Records can serve as templates for additional promotional data
+      - Data supports agent configuration for handling special offers
+      assignee: null
+      derived: false
+      description: Import sample Move In Specials data to provide initial promotional
+        offer records that can be expanded during agent configuration.
+      epic_id: null
+      id: US-93
+      labels:
+      - data-import
+      - promotions
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Move In Specials: Sample data to get you started. Add more
+        as part of your agent configuration'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to load Move In Specials sample data
+        so that I have promotional offer records for agent configuration
+      type: story
+    - acceptance_criteria:
+      - PDF document uploads successfully to Data Library
+      - File is properly indexed and searchable
+      - Document is accessible for agent knowledge base integration
+      - Upload maintains document formatting and readability
+      assignee: null
+      derived: false
+      description: Upload the Pacific Haven Properties community covenant document
+        as a PDF to the Data Library for agent knowledge base seeding.
+      epic_id: null
+      id: US-94
+      labels:
+      - document-upload
+      - knowledge-base
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Upload the file as a PDF to the Data Library
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to upload unstructured data to Data
+        Library so that agents can access community covenant documents
+      type: story
+    - acceptance_criteria:
+      - Documents are processed and integrated into knowledge base
+      - Content is searchable by agents
+      - Document information can be retrieved in agent responses
+      - Knowledge base indexing completes successfully
+      assignee: null
+      derived: false
+      description: Integrate uploaded unstructured data documents into the agent knowledge
+        base to enable intelligent responses about property policies and procedures.
+      epic_id: null
+      id: US-95
+      labels:
+      - knowledge-base
+      - agent-preparation
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: load this data and seed your knowledge base
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System Administrator, I want to seed the knowledge base with uploaded
+        documents so that agents have access to property information
+      type: story
+    - acceptance_criteria:
+      - PDF files can be successfully uploaded to the Data Library
+      - Uploaded files are accessible for agent configuration
+      - The system validates PDF format before upload
+      - Upload status is clearly indicated to the user
+      assignee: null
+      derived: false
+      description: The system must allow administrators to upload PDF files containing
+        unstructured data to a Data Library that can be referenced during agent configuration.
+      epic_id: null
+      id: US-96
+      labels:
+      - data-management
+      - file-upload
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Upload the file as a PDF to the Data Library
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Demo Administrator, I want to upload PDF files to the Data Library
+        so that unstructured data is available for agent configuration
+      type: story
+    - acceptance_criteria:
+      - KM articles can be created through the interface
+      - Articles are saved and retrievable
+      - Articles can be used in demo configurations
+      - Article content supports rich text formatting
+      assignee: null
+      derived: false
+      description: Users should be able to seed their own Knowledge Management articles
+        to enhance and customize their demo scenarios.
+      epic_id: null
+      id: US-97
+      labels:
+      - knowledge-management
+      - content-creation
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: You are also encouraged to seed your own Knowledge Management
+        (KM) articles to use in your demo
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Demo Administrator, I want to create Knowledge Management articles
+        so that I can customize demo content
+      type: story
+    - acceptance_criteria:
+      - Orgfarm URL is persistent and bookmarkable
+      - Bookmarked URL provides direct access to the demo org
+      - URL remains valid throughout the program duration
+      - Access through bookmark maintains user session when possible
+      assignee: null
+      derived: false
+      description: The system should provide a bookmarkable URL for easy access during
+        the capstone program duration.
+      epic_id: null
+      id: US-98
+      labels:
+      - accessibility
+      - user-experience
+      manually_edited: false
+      priority: low
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: 'Tip: Bookmark the Orgfarm URL for easy access throughout the
+        program'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Demo User, I want to bookmark the Orgfarm URL so that I can easily
+        access the system throughout the program
+      type: story
+    - acceptance_criteria:
+      - Person Account fields can be mapped to target schema
+      - Mapping configuration is saved and retrievable
+      - Mapped data is accessible to agents during runtime
+      - Validation ensures data integrity during mapping
+      assignee: null
+      derived: false
+      description: The system must support mapping of Person Account data to ensure
+        customer information is correctly structured and accessible to Agentforce
+        agents.
+      epic_id: null
+      id: US-99
+      labels:
+      - data-mapping
+      - person-accounts
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Person Account Mapping
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to map Person Account data so that customer
+        information is properly structured for agents
+      type: story
+    - acceptance_criteria:
+      - Apartment location fields can be mapped appropriately
+      - Geographic and address data is properly structured
+      - Location data is searchable and filterable
+      - Mapping supports multiple location attributes
+      assignee: null
+      derived: false
+      description: The system must support mapping of apartment location data to provide
+        agents with accurate property location information.
+      epic_id: null
+      id: US-100
+      labels:
+      - data-mapping
+      - location-data
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Apt Location Mapping
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to map Apartment Location data so that
+        property location information is available to agents
+      type: story
+    - acceptance_criteria:
+      - All apartment attributes can be mapped correctly
+      - Property specifications are preserved during mapping
+      - Apartment data supports search and filtering
+      - Related property information is properly linked
+      assignee: null
+      derived: false
+      description: The system must support comprehensive mapping of apartment data
+        including property details, specifications, and attributes.
+      epic_id: null
+      id: US-101
+      labels:
+      - data-mapping
+      - property-data
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Apartment Mapping
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to map Apartment data so that property
+        details are accessible to agents
+      type: story
+    - acceptance_criteria:
+      - Payment data fields are mapped with proper data types
+      - Financial calculations are preserved and accurate
+      - Payment history and schedules are properly structured
+      - Currency and amount formatting is consistent
+      assignee: null
+      derived: false
+      description: The system must support mapping of lease payment data to enable
+        agents to access and process financial information.
+      epic_id: null
+      id: US-102
+      labels:
+      - data-mapping
+      - financial-data
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Lease Payment Mapping
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to map Lease Payment data so that financial
+        information is available for agent processing
+      type: story
+    - acceptance_criteria:
+      - Special offers and promotions are properly mapped
+      - Promotional terms and conditions are preserved
+      - Effective dates and eligibility criteria are captured
+      - Special pricing and discounts are accurately represented
+      assignee: null
+      derived: false
+      description: The system must support mapping of move-in specials and promotional
+        data for agent access during customer interactions.
+      epic_id: null
+      id: US-103
+      labels:
+      - data-mapping
+      - promotions
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Move In Specials
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Data Administrator, I want to map Move In Specials data so that
+        promotional offers are available to agents
+      type: story
+    - acceptance_criteria:
+      - Demo org setup process completes successfully
+      - All required data is loaded and validated
+      - Setup completion status is clearly indicated
+      - System is ready for agent configuration after setup
+      assignee: null
+      derived: false
+      description: The system must provide a complete demo org setup process that
+        loads all required data before agent configuration can begin.
+      epic_id: null
+      id: US-104
+      labels:
+      - setup
+      - data-loading
+      manually_edited: false
+      priority: high
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: The Demo Org setup and data loading are complete. You now have
+        all the required data to begin configuring your Agentforce agent
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Demo Administrator, I want to complete demo org setup and data loading
+        so that I can begin configuring Agentforce agents
+      type: story
+    - acceptance_criteria:
+      - Scenario instructions are easily accessible
+      - Instructions are comprehensive and clear
+      - Instructions are specific to the assigned scenario
+      - Instructions include step-by-step configuration guidance
+      assignee: null
+      derived: false
+      description: The system must provide access to detailed Capstone scenario instructions
+        that guide agent configuration.
+      epic_id: null
+      id: US-105
+      labels:
+      - documentation
+      - instructions
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+      source_excerpt: Please follow the instructions provided in your Capstone scenario
+        document
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Demo Administrator, I want to access Capstone scenario instructions
+        so that I can properly configure my agents
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T11:56:15.329322+00:00'
+updated_at: '2026-06-19T15:25:29.833543+00:00'

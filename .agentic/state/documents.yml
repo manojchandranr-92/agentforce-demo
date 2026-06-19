@@ -14,8 +14,8 @@ documents:
   filename: Agentforce Pacific Haven Properties .docx
   page_count: null
   persona: PM
-  stories_mined_at: '2026-06-19T09:00:41.083328+00:00'
-  stories_mined_count: 16
+  stories_mined_at: '2026-06-19T15:24:45.852465+00:00'
+  stories_mined_count: 71
   stories_mined_depth: exhaustive
   text: "Agentforce Readiness Capstone Program\n\nCreate a copy of this scenario by\
     \ selecting File > Make a copy\n\nScenario: \nPacific Haven Properties – Unified\
@@ -213,8 +213,8 @@ documents:
   filename: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
   page_count: 11
   persona: PM
-  stories_mined_at: '2026-06-19T09:00:41.083581+00:00'
-  stories_mined_count: 2
+  stories_mined_at: '2026-06-19T15:25:24.087337+00:00'
+  stories_mined_count: 28
   stories_mined_depth: exhaustive
   text: " \n  Agentforce Readiness \nCapstone\n \nProgram\n Demo Org   \nSetup\n \n\
     Instruction\n \n \n \n \n\n\n \nYou\n \nwill\n \nspin\n \nup\n \nan\n \nOrgfarm\n\
@@ -294,4 +294,4 @@ documents:
   uploaded_at: '2026-06-19T08:58:28.536496+00:00'
   word_count: 560
 schema_version: 1
-updated_at: '2026-06-19T11:56:15.304021+00:00'
+updated_at: '2026-06-19T15:25:29.757611+00:00'
