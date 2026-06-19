@@ -32,7 +32,12 @@
 | US-22 | As a Integration Eng, I want to expose REST apis for partner systems | medium | backlog |
 | US-23 | As a Sales Manager, I want to track and forecast opportunits | medium | backlog |
 | US-24 | As a Admin, I want to configure roles and permissions | medium | backlog |
+| US-31 | Prospect apartment availability inquiry | medium |  |
+| US-32 | Tenant maintenance request submission | medium |  |
+| US-33 | Property manager operational reporting | medium |  |
+| US-34 | Secure tenant door access | medium |  |
+| US-35 | Tenant renewal evaluation | medium |  |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T09:00:48.941519+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T11:49:45.067270+00:00._

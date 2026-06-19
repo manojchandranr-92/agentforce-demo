@@ -63,6 +63,22 @@ pipeline_artifacts:
       name: Executive / Leadership
       pain: Aggregates data manually across teams, inconsistent KPI definitions, stale
         data
+    - goals: Close more leases efficiently, provide excellent prospect experience,
+        and focus on high-value sales activities rather than repetitive inquiries
+      name: Sarah Chen — Leasing Agent
+      pain: Spends 60% of time answering the same questions about pet policies, parking
+        availability, and square footage instead of building relationships and closing
+        deals
+    - goals: Quickly report maintenance issues, get status updates on requests, and
+        access building services without long wait times or frustration
+      name: Marcus Rodriguez — Current Tenant
+      pain: Experiences long wait times to report simple maintenance problems and
+        has no visibility into request status or resolution timelines
+    - goals: Make data-driven decisions about property operations, efficiently manage
+        maintenance backlogs, and maintain high occupancy rates across portfolio
+      name: Jennifer Kim — Property Manager
+      pain: Overwhelmed by manual report compilation from multiple systems and lacks
+        real-time insights into occupancy trends and maintenance priorities
     user_stories:
     - acceptance_criteria:
       - Admin can create/edit/delete roles
@@ -694,5 +710,72 @@ pipeline_artifacts:
       story_points: null
       title: As a Admin, I want to configure roles and permissions
       type: story
+    - acceptance_criteria:
+      - Agent displays top 3 matching apartments with details in table format
+      - Agent captures lead information (name, email, phone, requirements)
+      - Agent offers to schedule showing for urgent requests and escalates to human
+        agent
+      id: US-31
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a prospective tenant, I want to ask about apartment availability based
+        on my budget and preferences so that I can quickly identify suitable units
+        without waiting for a leasing agent
+      title: Prospect apartment availability inquiry
+      type: story
+    - acceptance_criteria:
+      - Agent verifies tenant authentication before accepting requests
+      - Agent creates appropriately prioritized case based on issue severity
+      - Agent provides proactive replacement recommendations for recurring issues
+      id: US-32
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a current tenant, I want to report maintenance issues through an AI
+        agent so that I can quickly submit requests and receive immediate acknowledgment
+        without waiting on hold
+      title: Tenant maintenance request submission
+      type: story
+    - acceptance_criteria:
+      - Agent generates reports only for properties under manager's purview
+      - Agent summarizes data from apartments, lease payments, and cases
+      - Agent provides actionable insights on maintenance trends and occupancy patterns
+      id: US-33
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a property manager, I want an AI assistant to generate weekly activity
+        summaries for my properties so that I can quickly understand occupancy, maintenance,
+        and financial performance
+      title: Property manager operational reporting
+      type: story
+    - acceptance_criteria:
+      - Agent requires multi-factor authentication including OTP verification
+      - Agent validates tenant identity against lease records before authorizing access
+      - Agent prevents access to wrong apartments and logs all access requests
+      id: US-34
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a locked-out tenant, I want to request emergency door access through
+        a secure AI agent so that I can enter my apartment safely without compromising
+        building security
+      title: Secure tenant door access
+      type: story
+    - acceptance_criteria:
+      - Agent analyzes payment history and generates tenant summaries
+      - Agent drafts appropriate renewal offers based on payment patterns
+      - Agent excludes protected information (CCPA compliance) and prevents discriminatory
+        factors
+      id: US-35
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a property manager, I want AI assistance to review tenant rental history
+        and draft renewal communications so that I can make informed decisions and
+        maintain consistent messaging
+      title: Tenant renewal evaluation
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T09:00:48.885376+00:00'
+updated_at: '2026-06-19T11:49:45.001560+00:00'
