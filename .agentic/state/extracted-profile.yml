@@ -1,3 +1,534 @@
-extracted_profile: null
+extracted_profile:
+  actions_customer:
+  - action: Provide API specifications for legacy system integration
+    owner: Client IT
+    priority: high
+    status: pending
+  - action: Export master data from legacy system
+    owner: Client Ops
+    priority: high
+    status: pending
+  - action: Sign off on approval hierarchy and business rules
+    owner: Business Owner
+    priority: med
+    status: pending
+  - action: Provide UAT environment access and firewall approvals
+    owner: Client IT Security
+    priority: med
+    status: pending
+  - action: Identify and confirm UAT test users
+    owner: Client PM
+    priority: low
+    status: pending
+  actions_ps:
+  - action: Set up development and sandbox environments
+    owner: Technical Architect
+    priority: high
+    status: pending
+  - action: Conduct discovery workshops with stakeholders
+    owner: Solution Architect
+    priority: high
+    status: pending
+  - action: Produce Business Requirements Document (BRD)
+    owner: Solution Architect
+    priority: high
+    status: pending
+  - action: Design solution architecture and integration topology
+    owner: Technical Architect
+    priority: high
+    status: pending
+  - action: Build data migration scripts and validation framework
+    owner: Lead Developer
+    priority: med
+    status: pending
+  - action: Prepare change management and training plan
+    owner: Change Lead
+    priority: med
+    status: pending
+  client_name: Client (from SOW)
+  data_sources_needed:
+  - RAID Log
+  - Test Plan
+  - Sprint Backlog
+  - Architecture Document
+  dependencies:
+  - description: API specifications from client IT
+    id: DEP-01
+    owner: Client IT
+    status: pending
+  - description: Master data export from legacy system
+    id: DEP-02
+    owner: Client Ops
+    status: pending
+  epics:
+  - color: '#8b5cf6'
+    description: Stories related to admin & security.
+    id: EP-01
+    name: Admin & Security
+    status: in_progress
+  - color: '#3b82f6'
+    description: Stories related to customer experience.
+    id: EP-02
+    name: Customer Experience
+    status: in_progress
+  - color: '#06b6d4'
+    description: Stories related to reporting & insights.
+    id: EP-03
+    name: Reporting & Insights
+    status: in_progress
+  - color: '#10b981'
+    description: Stories related to integration & data.
+    id: EP-04
+    name: Integration & Data
+    status: in_progress
+  - color: '#f59e0b'
+    description: Stories related to workflow & automation.
+    id: EP-05
+    name: Workflow & Automation
+    status: in_progress
+  - color: '#ef4444'
+    description: Stories related to core capabilities.
+    id: EP-06
+    name: Core Capabilities
+    status: in_progress
+  executive_summary: This document outlines the project scope, deliverables, timeline,
+    and key stakeholders for the engagement.
+  integrations:
+  - description: Master data sync and transaction exchange
+    protocol: REST API
+    system: Legacy ERP
+    type: bidirectional
+  - description: Notification delivery
+    protocol: SMTP
+    system: Email Service
+    type: outbound
+  key_requirements:
+  - description: System shall support user authentication and role-based access control
+    id: REQ-01
+    priority: must
+  - description: Data migration from legacy system with validation and reconciliation
+    id: REQ-02
+    priority: must
+  - description: Real-time integration with existing enterprise systems
+    id: REQ-03
+    priority: must
+  - description: Reporting and analytics dashboard for key business metrics
+    id: REQ-04
+    priority: should
+  - description: Automated notifications and workflow triggers
+    id: REQ-05
+    priority: should
+  - description: Audit trail and compliance logging
+    id: REQ-06
+    priority: must
+  personas:
+  - frustrations:
+    - Manual processes
+    - Lack of automation
+    goals:
+    - Manage users
+    - Configure system
+    - Monitor health
+    name: System Administrator
+    role: IT Admin
+  - frustrations:
+    - Slow legacy system
+    - Multiple logins
+    goals:
+    - Complete daily tasks efficiently
+    - Access accurate data
+    name: Business User
+    role: End User
+  - frustrations:
+    - No real-time visibility
+    - Manual reporting
+    goals:
+    - Track team performance
+    - Generate reports
+    - Approve workflows
+    name: Manager
+    role: Team Lead
+  phases:
+  - name: Discovery
+    progress: In progress
+    status: active
+  - name: Design
+    progress: ''
+    status: upcoming
+  - name: Build
+    progress: ''
+    status: upcoming
+  - name: Test & UAT
+    progress: ''
+    status: upcoming
+  - name: Go-Live
+    progress: ''
+    status: upcoming
+  - name: Hypercare
+    progress: ''
+    status: upcoming
+  project_name: Agentforce Pacific Haven Properties  Project
+  risks:
+  - description: Integration complexity with legacy systems
+    id: R-01
+    owner: TA
+    severity: high
+  - description: Data migration quality and completeness
+    id: R-02
+    owner: SA
+    severity: med
+  - description: User adoption and change resistance
+    id: R-03
+    owner: PM
+    severity: med
+  scope_in:
+  - Core platform implementation
+  - Data migration
+  - Integration with existing systems
+  - User training
+  scope_out:
+  - Mobile app development
+  - Third-party marketplace
+  - Legacy system decommission
+  stakeholders:
+  - impact: high
+    name: Project Sponsor
+    role: Executive Sponsor
+  - impact: high
+    name: IT Director
+    role: Technical Decision Maker
+  - impact: med
+    name: Operations Lead
+    role: Business Owner
+  timeline:
+    duration: ''
+    end: ''
+    milestones: []
+    start: ''
+  user_stories:
+  - acceptance_criteria:
+    - Admin can create/edit/delete roles
+    - Permissions are enforced across all modules
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: EP-01
+    id: US-01
+    labels: []
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As an admin, I want to manage user roles and permissions so that access
+      is controlled
+    type: story
+  - acceptance_criteria:
+    - Search returns results within 2 seconds
+    - Filters persist across sessions
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: EP-02
+    id: US-02
+    labels: []
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a user, I want to search and filter records so that I can find information
+      quickly
+    type: story
+  - acceptance_criteria:
+    - Dashboard loads within 3 seconds
+    - Data refreshes in real-time
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: EP-03
+    id: US-03
+    labels: []
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a manager, I want to view dashboards so that I can track KPIs
+    type: story
+  - acceptance_criteria:
+    - Import handles 100k+ records
+    - Validation report generated post-import
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: EP-04
+    id: US-04
+    labels: []
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a data admin, I want to import data from the legacy system so that historical
+      records are preserved
+    type: story
+  - acceptance_criteria:
+    - Email notifications sent within 1 minute
+    - In-app notification center available
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: EP-05
+    id: US-05
+    labels: []
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a user, I want to receive notifications for key events so that I can
+      take timely action
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-01 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: System shall support user authentication and role-based access control
+    epic_id: EP-01
+    id: US-06
+    labels:
+    - requirement
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: requirement:REQ-01
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: System shall support user authentication and role-based
+      access control'
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-02 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: Data migration from legacy system with validation and reconciliation
+    epic_id: EP-04
+    id: US-07
+    labels:
+    - requirement
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: requirement:REQ-02
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: Data migration from legacy system with validation
+      and reconciliation'
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-03 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: Real-time integration with existing enterprise systems
+    epic_id: EP-04
+    id: US-08
+    labels:
+    - requirement
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: requirement:REQ-03
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: Real-time integration with existing enterprise systems'
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-04 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: Reporting and analytics dashboard for key business metrics
+    epic_id: EP-03
+    id: US-09
+    labels:
+    - requirement
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: requirement:REQ-04
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: Reporting and analytics dashboard for key business
+      metrics'
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-05 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: Automated notifications and workflow triggers
+    epic_id: EP-05
+    id: US-10
+    labels:
+    - requirement
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: requirement:REQ-05
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: Automated notifications and workflow triggers'
+    type: story
+  - acceptance_criteria:
+    - Requirement REQ-06 is implemented and verifiable
+    - Verified by acceptance test
+    assignee: null
+    derived: true
+    description: Audit trail and compliance logging
+    epic_id: EP-01
+    id: US-11
+    labels:
+    - requirement
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: requirement:REQ-06
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: 'System shall support: Audit trail and compliance logging'
+    type: story
+  - acceptance_criteria:
+    - Legacy ERP bidirectional data flow is established and tested
+    - Error handling and retry logic are in place
+    - Integration monitoring/alerting is configured
+    assignee: null
+    derived: true
+    description: Master data sync and transaction exchange
+    epic_id: EP-04
+    id: US-12
+    labels:
+    - integration
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: integration:Legacy ERP
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a System, I want to integrate with Legacy ERP (bidirectional) via REST
+      API
+    type: story
+  - acceptance_criteria:
+    - Email Service outbound data flow is established and tested
+    - Error handling and retry logic are in place
+    - Integration monitoring/alerting is configured
+    assignee: null
+    derived: true
+    description: Notification delivery
+    epic_id: EP-05
+    id: US-13
+    labels:
+    - integration
+    manually_edited: false
+    priority: high
+    reporter: null
+    source_doc: integration:Email Service
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As a System, I want to integrate with Email Service (outbound) via SMTP
+    type: story
+  - acceptance_criteria:
+    - Action is completed and signed off
+    assignee: null
+    derived: true
+    description: Set up development and sandbox environments
+    epic_id: EP-06
+    id: US-14
+    labels:
+    - delivery-action
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: action-ps
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As the delivery team, I want to Set up development and sandbox environments
+    type: story
+  - acceptance_criteria:
+    - Action is completed and signed off
+    assignee: null
+    derived: true
+    description: Design solution architecture and integration topology
+    epic_id: EP-04
+    id: US-15
+    labels:
+    - delivery-action
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: action-ps
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As the delivery team, I want to Design solution architecture and integration
+      topology
+    type: story
+  - acceptance_criteria:
+    - Action is completed and signed off
+    assignee: null
+    derived: true
+    description: Build data migration scripts and validation framework
+    epic_id: EP-04
+    id: US-16
+    labels:
+    - delivery-action
+    manually_edited: false
+    priority: medium
+    reporter: null
+    source_doc: action-ps
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: As the delivery team, I want to Build data migration scripts and validation
+      framework
+    type: story
 schema_version: 1
-updated_at: '2026-06-19T06:07:59.864775+00:00'
+updated_at: '2026-06-19T07:29:02.329742+00:00'

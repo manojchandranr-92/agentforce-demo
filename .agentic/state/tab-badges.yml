@@ -1,3 +1,8 @@
 schema_version: 1
-tab_badges: {}
-updated_at: '2026-06-19T06:07:59.865619+00:00'
+tab_badges:
+  build: 1
+  change: 1
+  design: 1
+  discovery: 1
+  home: 1
+updated_at: '2026-06-19T07:29:02.345011+00:00'

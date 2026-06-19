@@ -1,3 +1,15 @@
+# Agentforce Pacific Haven Properties .docx
+
+| Field | Value |
+| --- | --- |
+| Type | sow |
+| Uploaded at | 2026-06-19T07:28:51.312134+00:00 |
+| Chunks indexed | 5 |
+| Artifact targets | user_story, epic, journey_map, sandbox_prototype, project_home, workshop_plan, wireframe, test_case |
+
+## Content
+
+```
 Agentforce Readiness Capstone Program
 
 Create a copy of this scenario by selecting File > Make a copy
@@ -288,3 +300,7 @@ Explain how you would test the agent
 Explain how you will show senior customer stakeholders how your agents are performing 
 
 Pick any agent you built above and deploy the agent from one sandbox to another and demo it works (Hint: If you need data to support the agent like KM articles, Account/Contact info, etc., ensure that it is available in the target org). It is recommended that you spin up a second org with the same template and seed it with the same data as your main org to simplicity
+```
+
+---
+_Auto-generated from in-app state. Source field: `documents['Agentforce Pacific Haven Properties .docx']`. Last updated: 2026-06-19T07:29:02.346932+00:00._
