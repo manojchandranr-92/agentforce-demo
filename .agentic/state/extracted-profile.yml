@@ -217,13 +217,20 @@ extracted_profile:
     - Agent captures name, email, phone, and requirements to create lead
     - System provides apartment amenities and security deposit information
     - Agent handles discount inquiries within configured guardrails
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
     id: US-01
     labels: []
     manually_edited: false
     priority: medium
-    story: As a prospective tenant, I want to search available apartments by budget,
-      location, and size requirements so that I can quickly find suitable options
-      and provide my contact information for follow-up
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
     title: Apartment Availability Search and Lead Capture
     type: story
   - acceptance_criteria:
@@ -233,12 +240,20 @@ extracted_profile:
     - System checks maintenance history and recommends replacement after 3+ similar
       incidents
     - Knowledge articles are referenced to provide immediate guidance
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
     id: US-02
     labels: []
     manually_edited: false
     priority: medium
-    story: As a current tenant, I want to report maintenance issues through the portal
-      so that appropriate cases are created with proper priority based on issue severity
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
     title: Authenticated Tenant Maintenance Request
     type: story
   - acceptance_criteria:
@@ -246,12 +261,20 @@ extracted_profile:
     - OTP verification required before processing unlock request
     - System fetches SmartRent Device ID from Salesforce data, never user input
     - Agent prevents access to wrong apartment through validation checks
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
     id: US-03
     labels: []
     manually_edited: false
     priority: medium
-    story: As a verified tenant, I want to request remote door unlock through additional
-      security validation so that I can access my apartment safely and securely
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
     title: Secure Door Access Request
     type: story
   - acceptance_criteria:
@@ -259,13 +282,20 @@ extracted_profile:
     - Report combines data from Apartment, Lease Payment, and Case objects
     - System generates automated summaries using scheduled flows
     - Manager can access historical trends and comparative analysis
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
     id: US-04
     labels: []
     manually_edited: false
     priority: medium
-    story: As a property manager, I want to receive weekly activity summaries for
-      my properties so that I can monitor occupancy, maintenance backlogs, and financial
-      performance
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
     title: Property Performance Summary Generation
     type: story
   - acceptance_criteria:
@@ -274,14 +304,38 @@ extracted_profile:
     - California tenant employer information protected under CCPA via Einstein Trust
       Layer
     - Bias prevention measures ensure decisions not based on protected characteristics
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
     id: US-05
     labels: []
     manually_edited: false
     priority: medium
-    story: As a property manager, I want AI-assisted tenant history analysis and renewal
-      communication drafting so that I can make informed decisions while maintaining
-      compliance and fairness
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
     title: Tenant Renewal Decision Support
     type: story
+  - acceptance_criteria: []
+    assignee: null
+    derived: false
+    description: ''
+    epic_id: null
+    id: US-06
+    labels: []
+    manually_edited: true
+    priority: medium
+    reporter: null
+    source_doc: null
+    source_excerpt: null
+    sprint: null
+    status: backlog
+    story_points: null
+    title: New user story — click to edit
+    type: story
 schema_version: 1
-updated_at: '2026-06-19T11:54:38.880598+00:00'
+updated_at: '2026-06-19T11:56:15.320295+00:00'

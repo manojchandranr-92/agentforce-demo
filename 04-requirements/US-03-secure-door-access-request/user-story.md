@@ -1,6 +1,7 @@
 # US-03 — Secure Door Access Request
 
 - **Priority:** medium
+- **Status:** backlog
 
 ## Acceptance criteria
 
@@ -11,4 +12,4 @@
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-03]`. Last updated: 2026-06-19T11:54:38.955681+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-03]`. Last updated: 2026-06-19T11:56:15.394947+00:00._

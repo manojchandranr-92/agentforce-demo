@@ -1,6 +1,7 @@
 # US-04 — Property Performance Summary Generation
 
 - **Priority:** medium
+- **Status:** backlog
 
 ## Acceptance criteria
 
@@ -11,4 +12,4 @@
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-04]`. Last updated: 2026-06-19T11:54:38.955837+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-04]`. Last updated: 2026-06-19T11:56:15.395068+00:00._
