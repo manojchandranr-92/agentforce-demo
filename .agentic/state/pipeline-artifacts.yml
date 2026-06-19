@@ -45,6 +45,11 @@ pipeline_artifacts:
       id: EP-06
       name: Core Capabilities
       status: in_progress
+    - color: '#8b5cf6'
+      description: Stories related to quote-to-order.
+      id: EP-07
+      name: Quote-to-Order
+      status: in_progress
     personas:
     - goals: Complete daily tasks efficiently, reduce data re-entry, access information
         on mobile
@@ -386,6 +391,123 @@ pipeline_artifacts:
         framework
       type: story
     - acceptance_criteria:
+      - Consolidated record view pulling from all data sources
+      - Real-time data refresh (within 5 minutes)
+      - Accessible on desktop and mobile
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-04
+      id: US-25
+      labels: []
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: Unified Data View
+      type: story
+    - acceptance_criteria:
+      - Rule-based assignment within 5 minutes of submission
+      - SLA tracking with auto-escalation on breach
+      - Dashboard showing queue depth and aging
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-05
+      id: US-26
+      labels: []
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: Automated Task Routing
+      type: story
+    - acceptance_criteria:
+      - Push notification on pending approval
+      - One-tap approve/reject with optional comments
+      - Audit trail of all approval actions
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-07
+      id: US-27
+      labels: []
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: Approval Workflow
+      type: story
+    - acceptance_criteria:
+      - Auto-refreshing dashboard with configurable KPIs
+      - Drill-down from portfolio to team to individual
+      - Anomaly detection with alerts
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-03
+      id: US-28
+      labels: []
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: Real-time Dashboard
+      type: story
+    - acceptance_criteria:
+      - Bi-directional sync with existing ERP/system
+      - Conflict resolution rules for data mismatches
+      - Sync status visible to admins
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-04
+      id: US-29
+      labels: []
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: Integration with Existing Systems
+      type: story
+    - acceptance_criteria: []
+      assignee: null
+      derived: false
+      description: ''
+      epic_id: EP-06
+      id: US-30
+      labels: []
+      manually_edited: true
+      priority: medium
+      reporter: null
+      source_doc: null
+      source_excerpt: null
+      sprint: null
+      status: backlog
+      story_points: null
+      title: New user story — click to edit
+      type: story
+    - acceptance_criteria:
       - Sales Rep can capture via the UI
       - Action is auditable and respects role-based permissions
       assignee: null
@@ -572,122 +694,5 @@ pipeline_artifacts:
       story_points: null
       title: As a Admin, I want to configure roles and permissions
       type: story
-    - acceptance_criteria:
-      - Consolidated record view pulling from all data sources
-      - Real-time data refresh (within 5 minutes)
-      - Accessible on desktop and mobile
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-25
-      labels: []
-      manually_edited: false
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: Unified Data View
-      type: story
-    - acceptance_criteria:
-      - Rule-based assignment within 5 minutes of submission
-      - SLA tracking with auto-escalation on breach
-      - Dashboard showing queue depth and aging
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-26
-      labels: []
-      manually_edited: false
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: Automated Task Routing
-      type: story
-    - acceptance_criteria:
-      - Push notification on pending approval
-      - One-tap approve/reject with optional comments
-      - Audit trail of all approval actions
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-27
-      labels: []
-      manually_edited: false
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: Approval Workflow
-      type: story
-    - acceptance_criteria:
-      - Auto-refreshing dashboard with configurable KPIs
-      - Drill-down from portfolio to team to individual
-      - Anomaly detection with alerts
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-28
-      labels: []
-      manually_edited: false
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: Real-time Dashboard
-      type: story
-    - acceptance_criteria:
-      - Bi-directional sync with existing ERP/system
-      - Conflict resolution rules for data mismatches
-      - Sync status visible to admins
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-29
-      labels: []
-      manually_edited: false
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: Integration with Existing Systems
-      type: story
-    - acceptance_criteria: []
-      assignee: null
-      derived: false
-      description: ''
-      epic_id: null
-      id: US-30
-      labels: []
-      manually_edited: true
-      priority: medium
-      reporter: null
-      source_doc: null
-      source_excerpt: null
-      sprint: null
-      status: backlog
-      story_points: null
-      title: New user story — click to edit
-      type: story
 schema_version: 1
-updated_at: '2026-06-19T08:37:53.208117+00:00'
+updated_at: '2026-06-19T08:58:28.701677+00:00'

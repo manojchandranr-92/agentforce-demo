@@ -14,7 +14,7 @@ documents:
   filename: Agentforce Pacific Haven Properties .docx
   page_count: null
   persona: PM
-  stories_mined_at: '2026-06-19T07:30:37.092530+00:00'
+  stories_mined_at: '2026-06-19T08:58:28.668989+00:00'
   stories_mined_count: 16
   stories_mined_depth: exhaustive
   text: "Agentforce Readiness Capstone Program\n\nCreate a copy of this scenario by\
@@ -198,5 +198,97 @@ documents:
     \ simplicity"
   uploaded_at: '2026-06-19T07:28:51.312134+00:00'
   word_count: 2196
+- artifact_targets:
+    epic: false
+    journey_map: false
+    project_home: true
+    sandbox_prototype: false
+    test_case: false
+    user_story: false
+    wireframe: false
+    workshop_plan: true
+  chunks_indexed: 2
+  doc_label: Statement of Work
+  doc_type: sow
+  filename: Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf
+  page_count: 11
+  persona: PM
+  text: " \n  Agentforce Readiness \nCapstone\n \nProgram\n Demo Org   \nSetup\n \n\
+    Instruction\n \n \n \n \n\n\n \nYou\n \nwill\n \nspin\n \nup\n \nan\n \nOrgfarm\n\
+    \ \norg\n \nwith\n \nthe\n \nfollowing\n \ntemplate:\n \n \nWhat's\n \nincluded:\n\
+    \ \n●\n \nAgentforce\n \n \n●\n \nData\n \nCloud\n \n \n●\n \nSales\n \nCloud\n\
+    \ \n&\n \nService\n \nCloud\n \nfully\n \nconﬁgured\n \n \nImportant\n \nNote:\n\
+    \ \nEnsure\n \nthat\n \nyou\n \nupdate\n \nthe\n \nexpiry\n \ndate\n \nto\n \n\
+    a\n \ncouple\n \nof\n \nmonths\n \nin\n \nthe\n \nfuture\n \nso\n \nthat\n \n\
+    org\n \nstays\n \nvalid\n \nfor\n \nthe\n \nduration\n \nof\n \nyour\n \nproject.\n\
+    \ \n \n \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n \nDemo\n \nOrg\n\
+    \ \nSetup\n \nInstructions\n \n|\n \n2\n \n \n\n\n \n \n \nClick\n \nOpen\n \n\
+    to\n \nopen\n \nthe\n \norg.\n  \n \nStep 1: Install Unmanaged Package \nInstall\n\
+    \ \nthe\n \nunmanaged\n \npackage\n \nto\n \nensure\n \nthat\n \nyour\n \norg\n\
+    \ \ncontains\n \nthe\n \ncustom\n \nobjects,\n \nﬁelds,\n \npage\n \nlayouts,\n\
+    \ \nand\n \ntabs\n \nrequired\n \nfor\n \nthe\n \nbadge.\n \nImportant\n \nNote\n\
+    :\n \nThis\n \ninstallation\n \nwill\n \nonly\n \nwork\n \nin\n \nan\n \nOrg\n\
+    \ \nFarm\n \norg.\n \n \nClick\n \non\n \nthe\n \nlink\n \nto\n \nstart\n \nthe\n\
+    \ \ninstallation:\n \nPackage\n \nLink\n.\n \n \n \nConﬁrm\n \nthat\n \nthe\n\
+    \ \npackage\n \nis\n \ninstalled\n \nAgentforce\n \nReadiness\n \nCapstone\n \n\
+    Program:\n \nDemo\n \nOrg\n \nSetup\n \nInstructions\n \n|\n \n3\n \n \n\n\n \n\
+    \ \n \n \n \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n \nDemo\n \n\
+    Org\n \nSetup\n \nInstructions\n \n|\n \n4\n \n \n\n\n \nStep 2: Enable Person\
+    \ Accounts \nEnable\n \nPerson\n \nAccounts:\n \nNavigate\n \nto\n \nSetup\n \n\
+    >\n \nPerson\n \nAccounts\n \nand\n \nenable\n \nthis\n \nfeature.\n \n \n \n\
+    Update\n \nLayout:\n \nVerify\n \nthat\n \nthe\n \nPerson\n \nAccount\n \nlayout\n\
+    \ \nincludes\n \nthe\n \nExternal\n \nAccount\n \nﬁeld.\n \n \n \nSecurity\n \n\
+    Conﬁguration:\n \nIf\n \nnot\n \nalready\n \nconﬁgured,\n \nconﬁrm\n \nthat\n\
+    \ \nyour\n \nsystem\n \nadministrator\n \nproﬁle\n \nhas\n \naccess\n \nto\n \n\
+    all\n \nthe\n \nobjects\n \nand\n \nﬁelds\n \ninstalled\n \nfrom\n \nthe\n \n\
+    unmanaged\n \npackage.\n  \n \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n\
+    \ \nDemo\n \nOrg\n \nSetup\n \nInstructions\n \n|\n \n5\n \n \n\n\n \nStep 3:\
+    \ Data Load \nYou\n \nhave\n \ndata\n \nseeded\n \nin\n \nstandard\n \nand\n \n\
+    custom\n \nobjects\n \nto\n \nbegin\n \nbuilding\n \nyour\n \nagent.\n \nThe\n\
+    \ \nnext\n \nstep\n \nis\n \nto\n \nload\n \nthis\n \ndata\n \nand\n \nseed\n\
+    \ \nyour\n \nknowledge\n \nbase.\n \n \nStructured\n \nData\n \nLoad:\n \nUse\n\
+    \ \nthe\n \nData\n \nImport\n \nWizard\n \nto\n \nload\n \nthe\n \ntemplate\n\
+    \ \ndata.\n \nThe\n \ndata\n \nﬁles\n \nare\n \navailable\n \nhere\n.\n \n \n\
+    Important\n \nNote:\n \nThe\n \nData\n \nImport\n \nWizard\n \nis\n \nrecommended\n\
+    \ \ndue\n \nto\n \npotential\n \nchallenges\n \nwhen\n \nusing\n \nData\n \nLoader\n\
+    \ \nwith\n \nOrg\n \nFarm\n \norgs.\n \nIt\n \nis\n \nimportant\n \nthat\n \n\
+    you\n \nmap\n \nthe\n \nExternal\n \nIDs\n \nin\n \nthe\n \nﬁle\n \nto\n \nthe\n\
+    \ \nExternal\n \nID\n \non\n \nthe\n \nobject\n \nfor\n \nthis\n \ndata\n \nload\n\
+    \ \nto\n \nwork\n \nproperly.\n \nData\n \nsets\n \nto\n \nload:\n \n \n●\n \n\
+    Person\n \nAccounts\n \n(1,000\n \nrecords):\n \nThe\n \nrenters\n \nand\n \n\
+    potential\n \nrenters.\n1\n \n●\n \nApt\n \nLocation\n \n(51\n \nrecords):\n \n\
+    Designates\n \nthe\n \nspeciﬁc\n \napartment\n \ncomplex\n \nin\n \na\n \ncity.\n\
+    1\n \n●\n \nApartments\n \n(1,500\n \nrecords):\n \nThe\n \nactual\n \nrentable\n\
+    \ \nunits.\n1\n \n●\n \nLease\n \nPayments:\n \nSample\n \ndata\n \nto\n \nget\n\
+    \ \nyou\n \nstarted.\n \nAdd\n \nmore\n \nas\n \npart\n \nof\n \nyour\n \nagent\n\
+    \ \nconﬁguration.\n1\n \n●\n \nMove\n \nIn\n \nSpecials:\n \nSample\n \ndata\n\
+    \ \nto\n \nget\n \nyou\n \nstarted.\n \nAdd\n \nmore\n \nas\n \npart\n \nof\n\
+    \ \nyour\n \nagent\n \nconﬁguration.\n \nFor\n \nunstructured\n \ndata,\n \nuse\n\
+    \ \nthe\n \nfollowing\n \nresource:\n \n \n \nPACIFIC HAVEN PROPERTIES: MASTER\
+    \ COMMUNITY COVENANT AND RESIDENT HAN…\n \nUpload\n \nthe\n \nﬁle\n \nas\n \n\
+    a\n \nPDF\n \nto\n \nthe\n \nData\n \nLibrary.\n \nYou\n \nare\n \nalso\n \nencouraged\n\
+    \ \nto\n \nseed\n \nyour\n \nown\n \nKnowledge\n \nManagement\n \n(KM)\n \narticles\n\
+    \ \nto\n \nuse\n \nin\n \nyour\n \ndemo.\n \nTip:\n \nBookmark\n \nthe\n \nOrgfarm\n\
+    \ \nURL\n \nfor\n \neasy\n \naccess\n \nthroughout\n \nthe\n \nprogram.\n \n \n\
+    \ \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n \nDemo\n \nOrg\n \nSetup\n\
+    \ \nInstructions\n \n|\n \n6\n \n \n\n \nData\n \nMapping\n \nPerson\n \nAccount\n\
+    \ \nMapping\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nAgentforce\n\
+    \ \nReadiness\n \nCapstone\n \nProgram:\n \nDemo\n \nOrg\n \nSetup\n \nInstructions\n\
+    \ \n|\n \n7\n \n \n\n\n \nApt\n \nLocation\n \nMapping\n \n \n \n \nAgentforce\n\
+    \ \nReadiness\n \nCapstone\n \nProgram:\n \nDemo\n \nOrg\n \nSetup\n \nInstructions\n\
+    \ \n|\n \n8\n \n \n\n\n \nApartment\n \nMapping\n \n \n \n \n \nAgentforce\n \n\
+    Readiness\n \nCapstone\n \nProgram:\n \nDemo\n \nOrg\n \nSetup\n \nInstructions\n\
+    \ \n|\n \n9\n \n \n\n\n \nLease\n \nPayment\n \nMapping\n \n \n \n \n \n \n \n\
+    \ \n \n \n \n \n \n \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n \n\
+    Demo\n \nOrg\n \nSetup\n \nInstructions\n \n|\n \n10\n \n \n\n\n \nMove\n \nIn\n\
+    \ \nSpecials\n \n \n \n \n \n \nStep\n \n4:\n \nStart\n \nBuilding\n \nYour\n\
+    \ \nAgents\n \nThe\n \nDemo\n \nOrg\n \nsetup\n \nand\n \ndata\n \nloading\n \n\
+    are\n \ncomplete.\n \nYou\n \nnow\n \nhave\n \nall\n \nthe\n \nrequired\n \ndata\n\
+    \ \nto\n \nbegin\n \nconﬁguring\n \nyour\n \nAgentforce\n \nagent.\n \nPlease\n\
+    \ \nfollow\n \nthe\n \ninstructions\n \nprovided\n \nin\n \nyour\n \nCapstone\n\
+    \ \nscenario\n \ndocument.\n \nAgentforce\n \nReadiness\n \nCapstone\n \nProgram:\n\
+    \ \nDemo\n \nOrg\n \nSetup\n \nInstructions\n \n|\n \n11\n \n \n"
+  uploaded_at: '2026-06-19T08:58:28.536496+00:00'
+  word_count: 560
 schema_version: 1
-updated_at: '2026-06-19T08:37:53.177017+00:00'
+updated_at: '2026-06-19T08:58:28.678515+00:00'
