@@ -5,7 +5,7 @@ documents:
     project_home: true
     sandbox_prototype: false
     test_case: false
-    user_story: false
+    user_story: true
     wireframe: false
     workshop_plan: true
   chunks_indexed: 5
@@ -14,6 +14,9 @@ documents:
   filename: Agentforce Pacific Haven Properties .docx
   page_count: null
   persona: PM
+  stories_mined_at: '2026-06-19T07:30:22.808811+00:00'
+  stories_mined_count: 16
+  stories_mined_depth: exhaustive
   text: "Agentforce Readiness Capstone Program\n\nCreate a copy of this scenario by\
     \ selecting File > Make a copy\n\nScenario: \nPacific Haven Properties – Unified\
     \ Agentforce Challenge\n\n1. Company Overview\n\nPacific Haven Properties (PHP)\
@@ -196,4 +199,4 @@ documents:
   uploaded_at: '2026-06-19T07:28:51.312134+00:00'
   word_count: 2196
 schema_version: 1
-updated_at: '2026-06-19T07:29:02.322799+00:00'
+updated_at: '2026-06-19T07:30:22.813305+00:00'

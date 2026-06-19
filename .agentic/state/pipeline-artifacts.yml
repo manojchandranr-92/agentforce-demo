@@ -358,5 +358,192 @@ pipeline_artifacts:
       title: As the delivery team, I want to Build data migration scripts and validation
         framework
       type: story
+    - acceptance_criteria:
+      - Sales Rep can capture via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: 'Mined from Agentforce Pacific Haven Properties .docx. Task 2:
+        The "Leasing Assistant" (Sales Agent)
+
+
+        Objective: Build a public-facing agent to capture leads and qualify prospects.'
+      epic_id: null
+      id: US-17
+      labels:
+      - lead-management
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: 'Task 2: The "Leasing Assistant" (Sales Agent)
+
+
+        Objective: Build a public-facing agent to capture leads and qualify prospects.'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Sales Rep, I want to capture and qualify leads
+      type: story
+    - acceptance_criteria:
+      - Manager can generate via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: 'Mined from Agentforce Pacific Haven Properties .docx. Service
+        (Tenants): Current tenants face long wait times to report simple maintenance
+        issues or check request status.'
+      epic_id: null
+      id: US-18
+      labels:
+      - reporting
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: 'Service (Tenants): Current tenants face long wait times to
+        report simple maintenance issues or check request status.'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Manager, I want to generate scheduled reports
+      type: story
+    - acceptance_criteria:
+      - Analyst can search, via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: 'Mined from Agentforce Pacific Haven Properties .docx. Internal
+        (Ops): Property managers are overwhelmed by data; they need to manually compile
+        reports on occupancy and maintenance backlogs from multiple systems.'
+      epic_id: null
+      id: US-19
+      labels:
+      - data
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: 'Internal (Ops): Property managers are overwhelmed by data;
+        they need to manually compile reports on occupancy and maintenance backlogs
+        from multiple systems.'
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Analyst, I want to search, filter, and export data
+      type: story
+    - acceptance_criteria:
+      - Order Specialist can submit via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: Mined from Agentforce Pacific Haven Properties .docx. Keyfobs have
+        to be ordered.
+      epic_id: null
+      id: US-20
+      labels:
+      - order-mgmt
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Keyfobs have to be ordered.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Order Specialist, I want to submit and track orders
+      type: story
+    - acceptance_criteria:
+      - System can integrate via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: Mined from Agentforce Pacific Haven Properties .docx. Keyfobs are
+        ordered in an external system called 'SmartRent.' (This part doesn't have
+        to be demoed - just talk through the process of integration and how it wil
+      epic_id: null
+      id: US-21
+      labels:
+      - integration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Keyfobs are ordered in an external system called 'SmartRent.'
+        (This part doesn't have to be demoed - just talk through the process of integration
+        and how it wil
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a System, I want to integrate with legacy ERP
+      type: story
+    - acceptance_criteria:
+      - Integration Eng can expose via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: "Mined from Agentforce Pacific Haven Properties .docx. This payload\
+        \ is then sent as a secure POST request to the SmartRent API endpoint POST\
+        \ \n\n  ▎ /devices/{deviceId}/unlock."
+      epic_id: null
+      id: US-22
+      labels:
+      - integration
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: "This payload is then sent as a secure POST request to the SmartRent\
+        \ API endpoint POST \n\n  ▎ /devices/{deviceId}/unlock."
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Integration Eng, I want to expose REST apis for partner systems
+      type: story
+    - acceptance_criteria:
+      - Sales Manager can track via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: Mined from Agentforce Pacific Haven Properties .docx. Tom is complaining
+        that he cannot edit the opportunity amount while Jerry can.
+      epic_id: null
+      id: US-23
+      labels:
+      - pipeline
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: Tom is complaining that he cannot edit the opportunity amount
+        while Jerry can.
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Sales Manager, I want to track and forecast opportunits
+      type: story
+    - acceptance_criteria:
+      - Admin can configure via the UI
+      - Action is auditable and respects role-based permissions
+      assignee: null
+      derived: false
+      description: "Mined from Agentforce Pacific Haven Properties .docx. Architect\
+        \ Action:  \n\nExplain how you would configure a 'Security' agent to compare\
+        \ permissions and explain the access difference."
+      epic_id: null
+      id: US-24
+      labels:
+      - security
+      manually_edited: false
+      priority: medium
+      reporter: null
+      source_doc: Agentforce Pacific Haven Properties .docx
+      source_excerpt: "Architect Action:  \n\nExplain how you would configure a 'Security'\
+        \ agent to compare permissions and explain the access difference."
+      sprint: null
+      status: backlog
+      story_points: null
+      title: As a Admin, I want to configure roles and permissions
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T07:29:02.339453+00:00'
+updated_at: '2026-06-19T07:30:22.843770+00:00'

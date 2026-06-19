@@ -18,7 +18,15 @@
 | US-14 | As the delivery team, I want to Set up development and sandbox environments | medium | backlog |
 | US-15 | As the delivery team, I want to Design solution architecture and integration topology | medium | backlog |
 | US-16 | As the delivery team, I want to Build data migration scripts and validation framework | medium | backlog |
+| US-17 | As a Sales Rep, I want to capture and qualify leads | medium | backlog |
+| US-18 | As a Manager, I want to generate scheduled reports | medium | backlog |
+| US-19 | As a Analyst, I want to search, filter, and export data | medium | backlog |
+| US-20 | As a Order Specialist, I want to submit and track orders | medium | backlog |
+| US-21 | As a System, I want to integrate with legacy ERP | medium | backlog |
+| US-22 | As a Integration Eng, I want to expose REST apis for partner systems | medium | backlog |
+| US-23 | As a Sales Manager, I want to track and forecast opportunits | medium | backlog |
+| US-24 | As a Admin, I want to configure roles and permissions | medium | backlog |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T07:29:02.351914+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T07:30:22.861431+00:00._
