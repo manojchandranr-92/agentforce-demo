@@ -95,6 +95,96 @@ pipeline_artifacts:
       pain: Overwhelmed by manual data compilation from multiple systems and lacks
         visibility into occupancy trends, maintenance backlogs, and tenant payment
         histories
-    user_stories: []
+    - goals: Close more leases, spend time on qualified prospects, provide accurate
+        property information quickly, schedule showings efficiently
+      name: Sarah Chen — Leasing Agent
+      pain: Constantly answering the same basic questions about pet policies, parking,
+        and square footage instead of focusing on sales activities and relationship
+        building
+    - goals: Report maintenance issues quickly, get status updates on requests, access
+        building amenities securely, manage lease payments and renewals
+      name: Marcus Rodriguez — Current Tenant
+      pain: Long wait times for simple maintenance requests, difficulty tracking request
+        status, multiple touchpoints for different services, security concerns with
+        access systems
+    - goals: Monitor occupancy rates, track maintenance backlogs, generate compliance
+        reports, make data-driven renewal decisions, manage tenant communications
+      name: Jennifer Park — Property Manager
+      pain: Manual report compilation from multiple systems, no real-time visibility
+        into property performance, time-consuming tenant history reviews, compliance
+        risk management
+    user_stories:
+    - acceptance_criteria:
+      - System displays top 3 matching apartments with details in table format
+      - Agent captures name, email, phone, and requirements to create lead
+      - System provides apartment amenities and security deposit information
+      - Agent handles discount inquiries within configured guardrails
+      id: US-01
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a prospective tenant, I want to search available apartments by budget,
+        location, and size requirements so that I can quickly find suitable options
+        and provide my contact information for follow-up
+      title: Apartment Availability Search and Lead Capture
+      type: story
+    - acceptance_criteria:
+      - System verifies active tenant status before processing requests
+      - Agent creates cases with appropriate priority (high for power outage, low
+        for faucet leak)
+      - System checks maintenance history and recommends replacement after 3+ similar
+        incidents
+      - Knowledge articles are referenced to provide immediate guidance
+      id: US-02
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a current tenant, I want to report maintenance issues through the
+        portal so that appropriate cases are created with proper priority based on
+        issue severity
+      title: Authenticated Tenant Maintenance Request
+      type: story
+    - acceptance_criteria:
+      - System validates tenant identity through multiple authentication steps
+      - OTP verification required before processing unlock request
+      - System fetches SmartRent Device ID from Salesforce data, never user input
+      - Agent prevents access to wrong apartment through validation checks
+      id: US-03
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a verified tenant, I want to request remote door unlock through additional
+        security validation so that I can access my apartment safely and securely
+      title: Secure Door Access Request
+      type: story
+    - acceptance_criteria:
+      - Summary includes only properties under manager's purview
+      - Report combines data from Apartment, Lease Payment, and Case objects
+      - System generates automated summaries using scheduled flows
+      - Manager can access historical trends and comparative analysis
+      id: US-04
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a property manager, I want to receive weekly activity summaries for
+        my properties so that I can monitor occupancy, maintenance backlogs, and financial
+        performance
+      title: Property Performance Summary Generation
+      type: story
+    - acceptance_criteria:
+      - System analyzes payment history and generates tenant summary
+      - Agent drafts appropriate renewal communications based on payment patterns
+      - California tenant employer information protected under CCPA via Einstein Trust
+        Layer
+      - Bias prevention measures ensure decisions not based on protected characteristics
+      id: US-05
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a property manager, I want AI-assisted tenant history analysis and
+        renewal communication drafting so that I can make informed decisions while
+        maintaining compliance and fairness
+      title: Tenant Renewal Decision Support
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T11:52:32.179452+00:00'
+updated_at: '2026-06-19T11:54:38.889053+00:00'
