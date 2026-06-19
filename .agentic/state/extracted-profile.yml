@@ -845,6 +845,8 @@ extracted_profile:
     - Agent captures lead information (name, email, phone, requirements)
     - Agent offers to schedule showing for urgent requests and escalates to human
       agent
+    - Search includes budget, area, and size filters
+    - Results show apartment features, amenities, and security deposit information
     id: US-31
     labels: []
     manually_edited: false
@@ -858,6 +860,9 @@ extracted_profile:
     - Agent verifies tenant authentication before accepting requests
     - Agent creates appropriately prioritized case based on issue severity
     - Agent provides proactive replacement recommendations for recurring issues
+    - Agent verifies tenant status before accepting requests
+    - Agent creates appropriately prioritized cases based on issue severity
+    - Agent provides relevant knowledge articles for self-service resolution
     id: US-32
     labels: []
     manually_edited: false
@@ -907,5 +912,41 @@ extracted_profile:
       consistent messaging
     title: Tenant renewal evaluation
     type: story
+  - acceptance_criteria:
+    - Agent collects name, email, phone, and requirements
+    - Agent creates lead record with apartment interest tags
+    - Agent schedules showings and escalates urgent requests to human agents
+    id: US-36
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As a leasing agent, I want the system to capture prospect information and
+      create qualified leads so that I can focus on closing rather than data entry
+    title: Lead capture and qualification
+    type: story
+  - acceptance_criteria:
+    - Agent summarizes payment history and case records
+    - Agent drafts renewal emails based on payment history (warm, strict, or decline)
+    - Agent protects sensitive information per CCPA compliance requirements
+    id: US-37
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As a property manager, I want to review tenant rental history and payment
+      patterns so that I can make informed renewal decisions with appropriate terms
+    title: Tenant renewal analysis
+    type: story
+  - acceptance_criteria:
+    - Agent verifies tenant identity through multi-factor authentication
+    - Agent sends OTP for additional security validation
+    - Agent prevents unauthorized access and integrates with SmartRent system safely
+    id: US-38
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As a tenant, I want to remotely unlock my apartment door through the portal
+      so that I can access my unit when I've forgotten my keys
+    title: Secure door unlock request
+    type: story
 schema_version: 1
-updated_at: '2026-06-19T11:49:44.981964+00:00'
+updated_at: '2026-06-19T11:51:01.072493+00:00'

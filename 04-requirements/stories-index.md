@@ -37,7 +37,10 @@
 | US-33 | Property manager operational reporting | medium |  |
 | US-34 | Secure tenant door access | medium |  |
 | US-35 | Tenant renewal evaluation | medium |  |
+| US-36 | Lead capture and qualification | medium |  |
+| US-37 | Tenant renewal analysis | medium |  |
+| US-38 | Secure door unlock request | medium |  |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T11:49:45.067270+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T11:51:01.168074+00:00._

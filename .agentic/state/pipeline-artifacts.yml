@@ -79,6 +79,22 @@ pipeline_artifacts:
       name: Jennifer Kim — Property Manager
       pain: Overwhelmed by manual report compilation from multiple systems and lacks
         real-time insights into occupancy trends and maintenance priorities
+    - goals: Close more leases, provide excellent customer service, and spend time
+        on high-value prospect interactions rather than answering repetitive questions
+      name: Sarah Chen — Leasing Agent
+      pain: Spends 60% of time answering the same questions about pet policies, parking,
+        and square footage instead of focusing on qualified prospects and lease closures
+    - goals: Quickly report maintenance issues, get status updates on requests, and
+        access property information without long wait times or phone calls
+      name: Marcus Rodriguez — Current Tenant
+      pain: Experiences long wait times to report simple maintenance issues and has
+        difficulty checking request status, especially during off-hours
+    - goals: Access real-time property data, automate reporting, and make data-driven
+        decisions about tenant renewals and property operations
+      name: Jennifer Park — Property Manager
+      pain: Overwhelmed by manual data compilation from multiple systems and lacks
+        visibility into occupancy trends, maintenance backlogs, and tenant payment
+        histories
     user_stories:
     - acceptance_criteria:
       - Admin can create/edit/delete roles
@@ -715,6 +731,8 @@ pipeline_artifacts:
       - Agent captures lead information (name, email, phone, requirements)
       - Agent offers to schedule showing for urgent requests and escalates to human
         agent
+      - Search includes budget, area, and size filters
+      - Results show apartment features, amenities, and security deposit information
       id: US-31
       labels: []
       manually_edited: false
@@ -728,6 +746,9 @@ pipeline_artifacts:
       - Agent verifies tenant authentication before accepting requests
       - Agent creates appropriately prioritized case based on issue severity
       - Agent provides proactive replacement recommendations for recurring issues
+      - Agent verifies tenant status before accepting requests
+      - Agent creates appropriately prioritized cases based on issue severity
+      - Agent provides relevant knowledge articles for self-service resolution
       id: US-32
       labels: []
       manually_edited: false
@@ -777,5 +798,42 @@ pipeline_artifacts:
         maintain consistent messaging
       title: Tenant renewal evaluation
       type: story
+    - acceptance_criteria:
+      - Agent collects name, email, phone, and requirements
+      - Agent creates lead record with apartment interest tags
+      - Agent schedules showings and escalates urgent requests to human agents
+      id: US-36
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a leasing agent, I want the system to capture prospect information
+        and create qualified leads so that I can focus on closing rather than data
+        entry
+      title: Lead capture and qualification
+      type: story
+    - acceptance_criteria:
+      - Agent summarizes payment history and case records
+      - Agent drafts renewal emails based on payment history (warm, strict, or decline)
+      - Agent protects sensitive information per CCPA compliance requirements
+      id: US-37
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a property manager, I want to review tenant rental history and payment
+        patterns so that I can make informed renewal decisions with appropriate terms
+      title: Tenant renewal analysis
+      type: story
+    - acceptance_criteria:
+      - Agent verifies tenant identity through multi-factor authentication
+      - Agent sends OTP for additional security validation
+      - Agent prevents unauthorized access and integrates with SmartRent system safely
+      id: US-38
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a tenant, I want to remotely unlock my apartment door through the
+        portal so that I can access my unit when I've forgotten my keys
+      title: Secure door unlock request
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T11:49:45.001560+00:00'
+updated_at: '2026-06-19T11:51:01.094546+00:00'
