@@ -1,5 +1,19 @@
 pipeline_artifacts:
   discovery_output:
+    current_state_analysis:
+      integration_touchpoints:
+      - Existing ERP/back-office system
+      - Email and spreadsheet-based workflows
+      - Third-party tools and portals
+      pain_points:
+      - Manual data entry across multiple systems creates duplication and errors
+      - No real-time visibility into process status — leadership relies on periodic
+        reports
+      - Handoffs between teams are informal, causing delays and dropped tasks
+      summary: The organization currently manages this process through a combination
+        of manual workflows, spreadsheets, and disconnected systems. There is no single
+        source of truth, leading to data inconsistency, delayed handoffs, and limited
+        visibility for leadership.
     epics:
     - color: '#8b5cf6'
       description: Stories related to admin & security.
@@ -31,6 +45,19 @@ pipeline_artifacts:
       id: EP-06
       name: Core Capabilities
       status: in_progress
+    personas:
+    - goals: Complete daily tasks efficiently, reduce data re-entry, access information
+        on mobile
+      name: End User / Operator
+      pain: Uses 3+ systems to complete one workflow, no single view of relevant data
+    - goals: Track team performance, approve requests quickly, get real-time dashboards
+      name: Manager / Supervisor
+      pain: Relies on weekly manual reports, no proactive alerts, limited drill-down
+        capability
+    - goals: Portfolio-level visibility, trend analysis, data-driven decisions
+      name: Executive / Leadership
+      pain: Aggregates data manually across teams, inconsistent KPI definitions, stale
+        data
     user_stories:
     - acceptance_criteria:
       - Admin can create/edit/delete roles
@@ -545,5 +572,65 @@ pipeline_artifacts:
       story_points: null
       title: As a Admin, I want to configure roles and permissions
       type: story
+    - acceptance_criteria:
+      - Consolidated record view pulling from all data sources
+      - Real-time data refresh (within 5 minutes)
+      - Accessible on desktop and mobile
+      id: US-25
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As an end user, I want a single screen showing all relevant information
+        so I don't have to switch between multiple systems.
+      title: Unified Data View
+      type: story
+    - acceptance_criteria:
+      - Rule-based assignment within 5 minutes of submission
+      - SLA tracking with auto-escalation on breach
+      - Dashboard showing queue depth and aging
+      id: US-26
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a manager, I want incoming requests to be automatically routed to
+        the right team member based on rules so nothing falls through the cracks.
+      title: Automated Task Routing
+      type: story
+    - acceptance_criteria:
+      - Push notification on pending approval
+      - One-tap approve/reject with optional comments
+      - Audit trail of all approval actions
+      id: US-27
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As a manager, I want to approve or reject requests from my mobile device
+        so approvals don't block the process.
+      title: Approval Workflow
+      type: story
+    - acceptance_criteria:
+      - Auto-refreshing dashboard with configurable KPIs
+      - Drill-down from portfolio to team to individual
+      - Anomaly detection with alerts
+      id: US-28
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As an executive, I want a live dashboard with key metrics so I can monitor
+        performance without requesting reports.
+      title: Real-time Dashboard
+      type: story
+    - acceptance_criteria:
+      - Bi-directional sync with existing ERP/system
+      - Conflict resolution rules for data mismatches
+      - Sync status visible to admins
+      id: US-29
+      labels: []
+      manually_edited: false
+      priority: medium
+      story: As an end user, I want data from our existing back-office system to sync
+        automatically so I don't have to re-enter information.
+      title: Integration with Existing Systems
+      type: story
 schema_version: 1
-updated_at: '2026-06-19T07:32:10.847377+00:00'
+updated_at: '2026-06-19T08:37:42.534714+00:00'

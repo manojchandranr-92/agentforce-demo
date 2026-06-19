@@ -717,5 +717,65 @@ extracted_profile:
     story_points: null
     title: As a Admin, I want to configure roles and permissions
     type: story
+  - acceptance_criteria:
+    - Consolidated record view pulling from all data sources
+    - Real-time data refresh (within 5 minutes)
+    - Accessible on desktop and mobile
+    id: US-25
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As an end user, I want a single screen showing all relevant information
+      so I don't have to switch between multiple systems.
+    title: Unified Data View
+    type: story
+  - acceptance_criteria:
+    - Rule-based assignment within 5 minutes of submission
+    - SLA tracking with auto-escalation on breach
+    - Dashboard showing queue depth and aging
+    id: US-26
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As a manager, I want incoming requests to be automatically routed to the
+      right team member based on rules so nothing falls through the cracks.
+    title: Automated Task Routing
+    type: story
+  - acceptance_criteria:
+    - Push notification on pending approval
+    - One-tap approve/reject with optional comments
+    - Audit trail of all approval actions
+    id: US-27
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As a manager, I want to approve or reject requests from my mobile device
+      so approvals don't block the process.
+    title: Approval Workflow
+    type: story
+  - acceptance_criteria:
+    - Auto-refreshing dashboard with configurable KPIs
+    - Drill-down from portfolio to team to individual
+    - Anomaly detection with alerts
+    id: US-28
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As an executive, I want a live dashboard with key metrics so I can monitor
+      performance without requesting reports.
+    title: Real-time Dashboard
+    type: story
+  - acceptance_criteria:
+    - Bi-directional sync with existing ERP/system
+    - Conflict resolution rules for data mismatches
+    - Sync status visible to admins
+    id: US-29
+    labels: []
+    manually_edited: false
+    priority: medium
+    story: As an end user, I want data from our existing back-office system to sync
+      automatically so I don't have to re-enter information.
+    title: Integration with Existing Systems
+    type: story
 schema_version: 1
-updated_at: '2026-06-19T07:32:10.829691+00:00'
+updated_at: '2026-06-19T08:37:42.513620+00:00'

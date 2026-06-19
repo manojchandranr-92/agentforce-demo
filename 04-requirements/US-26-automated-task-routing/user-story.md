@@ -1,0 +1,13 @@
+# US-26 — Automated Task Routing
+
+- **Priority:** medium
+
+## Acceptance criteria
+
+- Rule-based assignment within 5 minutes of submission
+- SLA tracking with auto-escalation on breach
+- Dashboard showing queue depth and aging
+
+
+---
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-26]`. Last updated: 2026-06-19T08:37:42.577033+00:00._

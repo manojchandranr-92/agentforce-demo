@@ -1,0 +1,13 @@
+# US-28 — Real-time Dashboard
+
+- **Priority:** medium
+
+## Acceptance criteria
+
+- Auto-refreshing dashboard with configurable KPIs
+- Drill-down from portfolio to team to individual
+- Anomaly detection with alerts
+
+
+---
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-28]`. Last updated: 2026-06-19T08:37:42.577429+00:00._

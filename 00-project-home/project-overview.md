@@ -8,7 +8,7 @@ _Created: 2026-06-19T06:07:55.154343+00:00_
 | --- | --- |
 | Documents uploaded | 1 |
 | Decisions logged | 0 |
-| Pipeline runs | 0 |
+| Pipeline runs | 1 |
 | Sandbox prototypes | 0 |
 
 ## Tab notifications
@@ -22,4 +22,4 @@ _Created: 2026-06-19T06:07:55.154343+00:00_
 
 
 ---
-_Auto-generated from in-app state. Source field: `project_name + extracted_profile + tab_badges`. Last updated: 2026-06-19T07:32:10.876076+00:00._
+_Auto-generated from in-app state. Source field: `project_name + extracted_profile + tab_badges`. Last updated: 2026-06-19T08:37:42.578656+00:00._

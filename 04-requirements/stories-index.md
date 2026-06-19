@@ -26,7 +26,12 @@
 | US-22 | As a Integration Eng, I want to expose REST apis for partner systems | medium | backlog |
 | US-23 | As a Sales Manager, I want to track and forecast opportunits | medium | backlog |
 | US-24 | As a Admin, I want to configure roles and permissions | medium | backlog |
+| US-25 | Unified Data View | medium |  |
+| US-26 | Automated Task Routing | medium |  |
+| US-27 | Approval Workflow | medium |  |
+| US-28 | Real-time Dashboard | medium |  |
+| US-29 | Integration with Existing Systems | medium |  |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T07:32:10.875591+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-19T08:37:42.577798+00:00._
