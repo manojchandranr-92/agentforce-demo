@@ -1,6 +1,7 @@
 # US-25 — Unified Data View
 
 - **Priority:** medium
+- **Status:** backlog
 
 ## Acceptance criteria
 
@@ -10,4 +11,4 @@
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-25]`. Last updated: 2026-06-19T08:37:42.576725+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-25]`. Last updated: 2026-06-19T08:37:53.252256+00:00._

@@ -1,6 +1,7 @@
 # US-29 — Integration with Existing Systems
 
 - **Priority:** medium
+- **Status:** backlog
 
 ## Acceptance criteria
 
@@ -10,4 +11,4 @@
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-29]`. Last updated: 2026-06-19T08:37:42.577614+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories[US-29]`. Last updated: 2026-06-19T08:37:53.252952+00:00._
