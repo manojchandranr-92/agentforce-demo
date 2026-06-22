@@ -28,4 +28,4 @@
 
 
 ---
-_Auto-generated from in-app state. Source field: `extracted_profile.personas`. Last updated: 2026-06-19T15:25:29.982911+00:00._
+_Auto-generated from in-app state. Source field: `extracted_profile.personas`. Last updated: 2026-06-22T10:54:26.811109+00:00._
