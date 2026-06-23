@@ -652,4 +652,4 @@
 ```
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.workshop_output + workshop_state`. Last updated: 2026-06-22T10:54:26.810243+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.workshop_output + workshop_state`. Last updated: 2026-06-23T08:00:00.910673+00:00._

@@ -113,6 +113,553 @@ pipeline_artifacts:
       pain: Manual report compilation from multiple systems, no real-time visibility
         into property performance, time-consuming tenant history reviews, compliance
         risk management
-    user_stories: []
+    user_stories:
+    - acceptance_criteria:
+      - 'Agent identifies parameters: Location, Budget, Bed/Bath count.'
+      - Agent queries the structured Apartment object dynamically.
+      - Agent outputs results formatted cleanly as a structured table displaying exactly
+        the top 3 matching units.
+      - Table explicitly shows Rent, Amenities, and Security Deposit.
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant visiting the experience cloud public portal,
+        I want to search for available apartments using parameters like budget, city,
+        and size, so that I can see the top matching properties directly in chat.
+      epic: Leasing Assistant
+      id: LA-01
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a prospective tenant visiting the experience cloud public portal,
+        I want to search for available apartments using parameters like budget, city,
+        and size, so that I can see the top matching properties directly in chat.
+      technical_notes:
+      - Experience Cloud Deployment (Guest Session), Apex Action / Flow querying Apartment
+        object.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Apartment Search & Availability
+    - acceptance_criteria:
+      - Agent prompts for Full Name, Email, Phone Number, and explicit Requirement
+        details.
+      - Agent securely maps and commits this data to create a new Lead record.
+      - If specific apartments were selected or favored, their identifiers are appended/tagged
+        against the Lead record.
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant reviewing options, I want to provide my
+        contact information to the agent, so that the leasing team can follow up regarding
+        my inquiry.
+      epic: Leasing Assistant
+      id: LA-02
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a prospective tenant reviewing options, I want to provide my contact
+        information to the agent, so that the leasing team can follow up regarding
+        my inquiry.
+      technical_notes:
+      - Standard Lead object mapping. Intent recognition for contact info extraction.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Contact Information & Lead Capture
+    - acceptance_criteria:
+      - Agent processes phrases indicating high urgency (e.g., "move in this week",
+        "asap").
+      - Agent prompts user if they would like to lock in a physical showing.
+      - Upon approval, agent generates a Task record assigned to the property queue
+        and routes the active chat to Omni-Channel live agent routing.
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant with an immediate moving requirement, I
+        want the agent to recognize my urgency, offer a showing, and smoothly transfer
+        me to a human team member.
+      epic: Leasing Assistant
+      id: LA-03
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a prospective tenant with an immediate moving requirement, I want
+        the agent to recognize my urgency, offer a showing, and smoothly transfer
+        me to a human team member.
+      technical_notes:
+      - Omni-Channel Live Agent Routing escalation, Task object creation.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Immediate Move-in Escalation
+    - acceptance_criteria:
+      - Agent invokes a RAG action pointing to the Tenant Handbook index.
+      - Answers match accurate policies (e.g., 50 lb Labrador restrictions in SF,
+        bicycle storage in Portland).
+      - Responses omit hallucinated clauses and ground answers completely within the
+        source document context.
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant, I want to ask unstructured questions about
+        complex building policies (e.g., guest limits, pet sizes, bicycle storage),
+        so that I can determine if the community suits my constraints.
+      epic: Leasing Assistant
+      id: LA-04
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a prospective tenant, I want to ask unstructured questions about complex
+        building policies (e.g., guest limits, pet sizes, bicycle storage), so that
+        I can determine if the community suits my constraints.
+      technical_notes:
+      - Salesforce Search / Vector DB Index, Einstein Copilot RAG mechanism.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Building Policy Validation (RAG)
+    - acceptance_criteria:
+      - Agent blocks user demands for extreme custom rent drops (e.g., demanding a
+        $2,500 unit for $1,000).
+      - Agent only references valid records within the custom Move-In Special Discount
+        object in Salesforce.
+      - Agent states standard transparent pricing firmly if no promotional match exists.
+      definition_of_done: []
+      dependencies: []
+      description: As a property administrator, I want strict financial guardrails
+        enforced on the agent's negotiation boundaries, so that no unauthorized discounts
+        are offered.
+      epic: Leasing Assistant
+      id: LA-05
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a property administrator, I want strict financial guardrails enforced
+        on the agent's negotiation boundaries, so that no unauthorized discounts are
+        offered.
+      technical_notes:
+      - Custom Discount Object verification flow, Agent System Guardrails / System
+        Prompt constraints.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Financial Negotiation Guardrails
+    - acceptance_criteria:
+      - System reads global profile variables ($User.Id).
+      - If session is guest/unauthenticated, agent stops execution and politely prompts
+        user to log into their tenant portal.
+      - If authenticated, agent confirms active tenancy before executing subsequent
+        service tasks.
+      definition_of_done: []
+      dependencies: []
+      description: As a resident platform administrator, I want the chat session to
+        accurately evaluate authentication status, so that guest accounts are blocked
+        from accessing operational internal tenant workflows.
+      epic: Tenant Concierge
+      id: TC-01
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a resident platform administrator, I want the chat session to accurately
+        evaluate authentication status, so that guest accounts are blocked from accessing
+        operational internal tenant workflows.
+      technical_notes:
+      - Experience Cloud Context Variable Verification, Custom Router Logic.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Authentication Status Evaluation
+    - acceptance_criteria:
+      - Agent surfaces relevant Knowledge Articles based on issue intent keywords.
+      - If article doesn't deflect issue, agent initiates Case creation.
+      - Agent evaluates semantic severity to assign case priority (e.g., "Leaking
+        faucet" maps to Low Priority; "No building power" maps to Critical/High Priority).
+      definition_of_done: []
+      dependencies: []
+      description: As an authenticated tenant, I want to submit issue details (e.g.,
+        leaking faucet, broken heating), so that the agent can review self-help material
+        or automatically file an appropriately prioritized ticket.
+      epic: Tenant Concierge
+      id: TC-02
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As an authenticated tenant, I want to submit issue details (e.g., leaking
+        faucet, broken heating), so that the agent can review self-help material or
+        automatically file an appropriately prioritized ticket.
+      technical_notes:
+      - Salesforce Knowledge Integration, Case Object Mapping with conditional Priority
+        Rules via Flow or Apex.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Maintenance Ticket Triage & Deflection
+    - acceptance_criteria:
+      - Agent invokes a background query evaluating Case records for the active Account
+        ID over the past rolling 12 months.
+      - If matching incident type count is greater than 3, agent appends a "Replacement
+        Recommended" flag to the case description and notifies the user that a structural
+        upgrade review has been initiated.
+      definition_of_done: []
+      dependencies: []
+      description: As an operational manager, I want the service agent to evaluate
+        a tenant's historical issue recurrence rates during a new request intake,
+        so that systemic failures trigger replacements rather than repetitive fixes.
+      epic: Tenant Concierge
+      id: TC-03
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As an operational manager, I want the service agent to evaluate a tenant's
+        historical issue recurrence rates during a new request intake, so that systemic
+        failures trigger replacements rather than repetitive fixes.
+      technical_notes:
+      - Apex Action querying historical Case records with conditional output variables.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Historical Issue Recurrence Monitoring
+    - acceptance_criteria:
+      - Agent parses angry text strings (e.g., "leaking for the third time, fix this
+        now or else").
+      - Agent returns a supportive, empathetic validation response.
+      - During standard shift hours, it schedules an instant live agent handoff.
+      - At off-hours (e.g., 2 AM), it logs the case securely with an elevated visibility
+        tag and explicitly informs the user that a supervisor will review it first
+        thing in the morning.
+      definition_of_done: []
+      dependencies: []
+      description: As an authenticated tenant displaying high frustration, I want
+        the agent to recognize my negative sentiment and smoothly adjust routing behaviors
+        depending on current staffing hours.
+      epic: Tenant Concierge
+      id: TC-04
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As an authenticated tenant displaying high frustration, I want the agent
+        to recognize my negative sentiment and smoothly adjust routing behaviors depending
+        on current staffing hours.
+      technical_notes:
+      - Einstein Sentiment Analysis integration, Operational Hours routing condition
+        matrix.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Sentiment-Based Routing & Off-Hours Handling
+    - acceptance_criteria:
+      - Agent initiates a mandatory identification protocol via an external One-Time
+        Password (OTP).
+      - System pulls the target SmartRent Device ID directly from verified Salesforce
+        records (never accepts user-provided device IDs to block jailbreak threats).
+      - Once fully verified, system builds a secure payload containing the Device
+        ID, Contact ID, and Apartment Record, and executes a secure POST to the SmartRent
+        API endpoint.
+      definition_of_done: []
+      dependencies: []
+      description: As an authenticated tenant who is locked out, I want the agent
+        to verify my identity and securely interface with my lock hardware, so that
+        I can safely regain entry to my unit.
+      epic: Tenant Concierge
+      id: TC-05
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As an authenticated tenant who is locked out, I want the agent to verify
+        my identity and securely interface with my lock hardware, so that I can safely
+        regain entry to my unit.
+      technical_notes:
+      - OTP verification mechanism, Named Credential or MuleSoft secure API link pointing
+        to SmartRent endpoint (/devices/{deviceId}/unlock). Strict prompt injection
+        block logic.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Secure Remote Door Unlock (SmartRent Integration)
+    - acceptance_criteria:
+      - Agent queries the Tenant Handbook vector index to pull and present the accurate
+        keyfob replacement cost.
+      - If the user clicks "OK/Approve" or indicates intent to purchase, the application
+        fires a structured JSON payload to the MuleSoft experience layer.
+      - MuleSoft processes transformations and verifies a successful mock return code
+        (201 Created) containing a SmartRent Order ID back to the user chat UI.
+      definition_of_done: []
+      dependencies: []
+      description: As an authenticated tenant, I want to inquire about keyfob replacements,
+        review pricing, and place an order seamlessly in the interface, so that an
+        order is created automatically in the provisioning system.
+      epic: Tenant Concierge
+      id: TC-06
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As an authenticated tenant, I want to inquire about keyfob replacements,
+        review pricing, and place an order seamlessly in the interface, so that an
+        order is created automatically in the provisioning system.
+      technical_notes:
+      - MuleSoft Integration App (Process/System API mock pattern), RAG handbook price
+        validation lookup.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Keyfob Replacement & Provisioning Integration
+    - acceptance_criteria:
+      - Copilot compiles data fields dynamically from standard Cases and custom Apartment
+        and Lease Payment records associated with the tenant.
+      - Output formats into a structured, easily scannable executive summary showing
+        total tenure, maintenance count, and rent delivery metrics.
+      definition_of_done: []
+      dependencies: []
+      description: As a Property Manager evaluating upcoming lease expirations, I
+        want the copilot to extract and aggregate a tenant's complete operational
+        profile across systems, so that I can execute an informed renewal decision.
+      epic: Ops Copilot
+      id: OC-01
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a Property Manager evaluating upcoming lease expirations, I want the
+        copilot to extract and aggregate a tenant's complete operational profile across
+        systems, so that I can execute an informed renewal decision.
+      technical_notes:
+      - Einstein Copilot Prompt Template, Salesforce Object Relationships configuration.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Operational Tenant Profile Aggregation
+    - acceptance_criteria:
+      - 'Rule A (0 Late Payments): Copilot generates a warm, friendly, professional
+        email proposing standard extension terms.'
+      - 'Rule B (1-3 Late Payments): Copilot generates a formal, strict email presenting
+        a renewal option carrying a 10% rent increase surcharge.'
+      - 'Rule C (>3 Late Payments): Copilot generates a highly formal, polite, and
+        professional notification letter declining to extend or offer a renewal.'
+      definition_of_done: []
+      dependencies: []
+      description: As a Property Manager, I want the copilot to analyze tenant payment
+        compliance histories and draft context-specific lease renewal emails automatically,
+        so that administrative work stays unified.
+      epic: Ops Copilot
+      id: OC-02
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a Property Manager, I want the copilot to analyze tenant payment compliance
+        histories and draft context-specific lease renewal emails automatically, so
+        that administrative work stays unified.
+      technical_notes:
+      - Conditional prompt template logic branching off computed Lease Payment summary
+        fields.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Compliance-Driven Lease Renewal Automation
+    - acceptance_criteria:
+      - 'CCPA Rule: For California residents, employer fields are dynamically blocked
+        or masked using object/field-level configurations before hitting the LLM model.'
+      - 'Fair Housing / Anti-Bias Rule: Prompt guardrails completely prevent the inclusion
+        of protected demographics (e.g., race, orientation, gender) within renewal
+        logic or drafted outputs.'
+      definition_of_done: []
+      dependencies: []
+      description: As a corporate compliance officer, I want strict privacy and fair
+        housing rules embedded directly into the LLM synthesis pipeline, so that protected
+        personal features and data are fully isolated from the generation engine.
+      epic: Ops Copilot
+      id: OC-03
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a corporate compliance officer, I want strict privacy and fair housing
+        rules embedded directly into the LLM synthesis pipeline, so that protected
+        personal features and data are fully isolated from the generation engine.
+      technical_notes:
+      - Einstein Trust Layer Data Masking, Data Classification settings on specific
+        fields, Prompt engineering guardrails.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Fair Housing & Data Privacy Isolation
+    - acceptance_criteria:
+      - Copilot isolates and restricts the search query data space strictly to buildings
+        mapped to the specific user's geographic assignment profile (CA, OR, WA).
+      - System design evaluates metered actions (Einstein Flex Credit cost) vs. unmetered
+        configurations to optimize operational run-rate costs for mass weekly batch
+        processing.
+      definition_of_done: []
+      dependencies: []
+      description: As a regional property manager, I want to trigger a comprehensive
+        portfolio summary containing metrics across all my buildings, so that I stay
+        informed while keeping computing usage well-controlled.
+      epic: Ops Copilot
+      id: OC-04
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Pacific Haven Properties Agentforce Technical User Stories Document
+      status: backlog
+      story: As a regional property manager, I want to trigger a comprehensive portfolio
+        summary containing metrics across all my buildings, so that I stay informed
+        while keeping computing usage well-controlled.
+      technical_notes:
+      - Salesforce Sharing Rules / Row-Level Security, Flex Credit Architecture Optimization
+        Planning.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Portfolio Summary Analytics & Cost Control
+  test_scripts:
+    estimated_total_duration_minutes: 8
+    generated_at: '2026-06-23T08:00:00.742073+00:00'
+    generated_from: 'LA-01: Apartment Search & Availability functionality for prospective
+      tenants'
+    test_cases:
+    - assertions:
+      - Agent correctly identifies and processes Location, Budget, and Bed/Bath count
+        parameters from user input
+      - Agent queries Apartment object dynamically and returns relevant results
+      - Results are formatted as a clean, structured table showing exactly 3 matching
+        units
+      - Table explicitly displays Rent, Amenities, and Security Deposit for each apartment
+      - All returned apartments match the specified search criteria
+      estimated_duration_minutes: 8
+      generated_at: '2026-06-23T08:00:00.742352+00:00'
+      linked_story: LA-01
+      pass_criteria: All search parameters are correctly identified, exactly 3 matching
+        apartments are displayed in a structured table format with Rent, Amenities,
+        and Security Deposit clearly shown, and no error messages appear
+      preconditions:
+        app: Experience Cloud Public Portal
+        test_data:
+        - At least 5 Apartment records exist with varying Rent amounts, Cities, and
+          Bed/Bath counts
+        - 'Apartment records include fields: Rent, City, Bedrooms, Bathrooms, Amenities,
+          Security Deposit'
+        - 'At least 3 apartments match search criteria: Budget=$2000-3000, City=''San
+          Francisco'', Bedrooms>=2'
+        user_profile: Guest User
+      steps:
+      - action: navigate
+        detail: Navigate to the Experience Cloud public portal page where the chat
+          interface is available
+        expected: The chat interface is visible and ready for interaction
+        step: 1
+        target: Experience Cloud Portal Chat Interface
+        url: /s/
+      - action: click
+        detail: Click on the chat input field to start a conversation with the leasing
+          assistant agent
+        expected: The chat input field is focused and ready for typing
+        step: 2
+        target: Chat input field
+      - action: fill
+        data: I'm looking for apartments in San Francisco with a budget of $2500,
+          need at least 2 bedrooms and 2 bathrooms
+        detail: Type a search request with specific parameters for apartment search
+        expected: The search message appears in the chat input field
+        step: 3
+        target: Chat input field
+      - action: click
+        detail: Click the send button or press Enter to submit the apartment search
+          request
+        expected: The message is sent and appears in the chat conversation
+        step: 4
+        target: Send message button
+      - action: verify
+        detail: Verify that the agent identifies the search parameters and provides
+          apartment results
+        expected: 'Agent response acknowledges Location: San Francisco, Budget: $2500,
+          Bedrooms: 2, Bathrooms: 2'
+        step: 5
+        target: Agent response with apartment results
+      - action: verify
+        detail: Verify that exactly 3 matching apartments are displayed in a clean,
+          structured table format
+        expected: A table showing exactly 3 apartment units matching the search criteria
+          is visible
+        step: 6
+        target: Structured table with top 3 apartments
+      - action: verify
+        detail: Verify that the Rent amount is explicitly displayed for each apartment
+          in the results
+        expected: Each apartment result shows a Rent value in the table
+        step: 7
+        target: Rent column in results table
+      - action: verify
+        detail: Verify that Amenities are explicitly shown for each apartment in the
+          results
+        expected: Each apartment result displays Amenities information in the table
+        step: 8
+        target: Amenities column in results table
+      - action: verify
+        detail: Verify that Security Deposit amounts are explicitly displayed for
+          each apartment
+        expected: Each apartment result shows Security Deposit information in the
+          table
+        step: 9
+        target: Security Deposit column in results table
+      story_snapshot: e33f28b6f6715283
+      test_id: TC-001
+      title: Search available apartments with budget, city, and size parameters
+      user_story: As a prospective tenant visiting the experience cloud public portal,
+        I want to search for available apartments using parameters like budget, city,
+        and size, so that I can see the top matching properties directly in chat.
+    test_suite: Experience Cloud Leasing Assistant Portal Tests
+    total_tests: 1
 schema_version: 1
-updated_at: '2026-06-22T10:54:26.749988+00:00'
+updated_at: '2026-06-23T08:00:00.838402+00:00'
