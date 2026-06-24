@@ -557,6 +557,20 @@ pipeline_artifacts:
       steps_passed: 6
       test_id: TC-001
       title: Verify Unified Data View loads for Sales User
+  - aborted: false
+    completed_at: '2026-06-24T08:36:27.636635+00:00'
+    defects: []
+    executed_by: 'Test Execution Agent — '
+    execution_id: EXEC-4c3d756c
+    org_url: https://login.salesforce.com
+    started_at: '2026-06-24T08:36:25.984109+00:00'
+    summary:
+      failed: 0
+      pass_rate: 0%
+      passed: 0
+      skipped: 0
+      total: 0
+    test_results: []
   test_scripts:
     estimated_total_duration_minutes: 8
     generated_at: '2026-06-24T08:29:46.364458+00:00'
@@ -685,4 +699,4 @@ pipeline_artifacts:
     test_suite: 'Leasing Assistant — Feature 1: Apartment Search & Lead Capture'
     total_tests: 1
 schema_version: 1
-updated_at: '2026-06-24T08:33:24.476274+00:00'
+updated_at: '2026-06-24T08:36:27.640300+00:00'
