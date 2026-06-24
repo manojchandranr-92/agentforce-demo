@@ -113,6 +113,519 @@ pipeline_artifacts:
       pain: Manual report compilation from multiple systems, no real-time visibility
         into property performance, time-consuming tenant history reviews, compliance
         risk management
-    user_stories: []
+    user_stories:
+    - acceptance_criteria:
+      - Agent asks for City (required), Budget, Bedrooms, and Move-In Date
+      - Displays the top 3 matching apartments in a table showing Property Name, Bedrooms,
+        Rent, Location, and Amenities
+      - Only unoccupied apartments are returned
+      - Results are sorted by rent ascending
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant visiting the property website, I want to
+        describe my apartment needs in plain language, so that the agent finds and
+        shows me relevant available units.
+      epic: Apartment Search & Lead Capture
+      id: US-01
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant visiting the property website, I want to describe
+        my apartment needs in plain language, so that the agent finds and shows me
+        relevant available units.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Basic Apartment Search
+    - acceptance_criteria:
+      - 'Agent normalizes colloquial amenity terms: ''gym/fitness/workout'' → Fitness
+        Center, ''pool/swimming'' → Swimming Pool, ''washer/laundry/dryer'' → Washer/Dryer,
+        ''pet/pets'' → Pet Friendly, ''wifi/internet'' → WiFi, ''balcony/parking/patio''
+        → direct match'
+      - Filtered apartments are returned showing only those with the requested amenity
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant who prioritizes specific amenities, I want
+        to say things like 'I need a gym' or 'I want a pool', so that the agent understands
+        my language and filters apartments accordingly.
+      epic: Apartment Search & Lead Capture
+      id: US-02
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant who prioritizes specific amenities, I want to
+        say things like 'I need a gym' or 'I want a pool', so that the agent understands
+        my language and filters apartments accordingly.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Amenity-Based Apartment Search
+    - acceptance_criteria:
+      - 'After showing apartment results, agent asks for: Last Name, Email, and Company'
+      - All three fields are mandatory — agent must re-prompt if any are missing
+      - Lead is NOT created until all three mandatory fields are provided
+      - A Lead record is created in Salesforce upon successful collection
+      definition_of_done: []
+      dependencies: []
+      description: As a leasing manager, I want the agent to collect contact details
+        from every prospective tenant who views apartments, so that I have a qualified
+        lead in Salesforce to follow up with.
+      epic: Apartment Search & Lead Capture
+      id: US-03
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a leasing manager, I want the agent to collect contact details from
+        every prospective tenant who views apartments, so that I have a qualified
+        lead in Salesforce to follow up with.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Lead Capture After Apartment Search
+    - acceptance_criteria:
+      - 'High interest: move-in within 7 days; requests a tour; requests booking or
+        lease application; requests immediate follow-up'
+      - 'Medium interest: move-in within 30 days; requests additional apartment details;
+        pricing clarification; tour at a later date'
+      - 'Low interest: browsing only; no timeline; no tour/booking request; declines
+        follow-up; ends conversation after viewing'
+      - Interest level is determined from the full conversation before lead creation
+      - If a visitor ends the conversation after seeing results — regardless of prior
+        signals — the level is always classified as Low
+      - The classified level is stored on the Lead record
+      definition_of_done: []
+      dependencies: []
+      description: As a leasing manager, I want every new lead to be tagged with an
+        interest level (High, Medium, or Low), so that my sales team knows how to
+        prioritize follow-up.
+      epic: Apartment Search & Lead Capture
+      id: US-04
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a leasing manager, I want every new lead to be tagged with an interest
+        level (High, Medium, or Low), so that my sales team knows how to prioritize
+        follow-up.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Lead Interest Level Classification
+    - acceptance_criteria:
+      - Apartment ID is passed to lead creation only when the visitor explicitly identifies
+        a specific unit (e.g. 'I am interested in Unit 1051', 'Please schedule a tour
+        for Financial District')
+      - If the visitor does not explicitly identify a preferred apartment, the Lead
+        is created without an Apartment ID
+      - Showing search results alone does NOT constitute explicit interest
+      definition_of_done: []
+      dependencies: []
+      description: As a leasing manager, I want the lead to be linked to a specific
+        apartment only when the visitor clearly expresses interest in it, so that
+        my team knows exactly which unit to follow up about.
+      epic: Apartment Search & Lead Capture
+      id: US-05
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a leasing manager, I want the lead to be linked to a specific apartment
+        only when the visitor clearly expresses interest in it, so that my team knows
+        exactly which unit to follow up about.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Apartment ID on Lead (Explicit Interest Only)
+    - acceptance_criteria:
+      - When no apartments match, the agent clearly informs the visitor
+      - Agent can suggest adjusting filters (city, budget, bedrooms, amenity)
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant, I want to be notified clearly when no
+        apartments match my criteria, so that I can adjust my search instead of waiting
+        for results that won't come.
+      epic: Apartment Search & Lead Capture
+      id: US-06
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant, I want to be notified clearly when no apartments
+        match my criteria, so that I can adjust my search instead of waiting for results
+        that won't come.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: No Apartments Found
+    - acceptance_criteria:
+      - 'Agent handles questions about: pet policies, guest guidelines, parking, bicycle
+        rules, lease conditions, community guidelines, move-in/move-out procedures'
+      - Answers are strictly grounded in Tenant Handbook articles — no assumptions,
+        opinions, or general advice
+      - If no relevant information is found, the agent recommends speaking with a
+        leasing specialist
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective or current tenant, I want to ask questions about
+        property rules and policies in plain language, so that I get instant, accurate
+        answers without calling the office.
+      epic: Leasing Policies & Tenant Handbook
+      id: US-07
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective or current tenant, I want to ask questions about property
+        rules and policies in plain language, so that I get instant, accurate answers
+        without calling the office.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Policy Question Answering
+    - acceptance_criteria:
+      - Agent never generates answers outside of knowledge article content
+      - If the knowledge base returns no results, the fallback is to refer the user
+        to a human leasing specialist — never a fabricated answer
+      definition_of_done: []
+      dependencies: []
+      description: As a property manager, I want the agent to never make up policy
+        answers, so that tenants are not misled by inaccurate information.
+      epic: Leasing Policies & Tenant Handbook
+      id: US-08
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a property manager, I want the agent to never make up policy answers,
+        so that tenants are not misled by inaccurate information.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Knowledge Boundary Enforcement
+    - acceptance_criteria:
+      - 'Agent is triggered by any of: discount request, negotiation attempt, price
+        comparison, request for offers/specials/deals'
+      - 'Agent collects: Apartment name or ID, city (if no ID), bedrooms (optional),
+        move-in month (optional, defaults to current month)'
+      - 'Response format always includes: Base Rent, Applicable Move-in Special (if
+        any), Final Effective Rent, Offer Validity'
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant, I want to ask if there are any discounts
+        or move-in specials for an apartment, so that I can make an informed decision
+        about which unit to rent.
+      epic: Pricing & Discount Guardrail
+      id: US-09
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant, I want to ask if there are any discounts or
+        move-in specials for an apartment, so that I can make an informed decision
+        about which unit to rent.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Move-in Special Lookup
+    - acceptance_criteria:
+      - If an apartment ID is already known from a prior search, it is used directly
+      - Apartment name is only used when no ID is available
+      - Both are never sent together in the same request
+      definition_of_done: []
+      dependencies: []
+      description: As a leasing manager, I want the agent to use either the apartment
+        ID or the apartment name — never both together, so that discount lookups are
+        unambiguous and return accurate results.
+      epic: Pricing & Discount Guardrail
+      id: US-10
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a leasing manager, I want the agent to use either the apartment ID
+        or the apartment name — never both together, so that discount lookups are
+        unambiguous and return accurate results.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: No Double-Lookup (Apartment ID vs Name)
+    - acceptance_criteria:
+      - Agent clearly informs the visitor that no move-in specials are available and
+        that the listed rent is final
+      - Agent does not suggest alternative discounts or attempt to negotiate
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant, I want to be told clearly when no discounts
+        exist, so that I know the listed rent is final and there's no point in negotiating.
+      epic: Pricing & Discount Guardrail
+      id: US-11
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant, I want to be told clearly when no discounts
+        exist, so that I know the listed rent is final and there's no point in negotiating.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: No Discount Available
+    - acceptance_criteria:
+      - Agent displays the discount value exactly as returned from the source of truth
+      - The agent does NOT modify, round, enhance, or combine discount values
+      - The offer is clearly labeled as a 'move-in special offer'
+      definition_of_done: []
+      dependencies: []
+      description: As a property manager, I want the agent to show only the discount
+        returned from Salesforce, so that tenants never receive a more favorable offer
+        than what is officially approved.
+      epic: Pricing & Discount Guardrail
+      id: US-12
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a property manager, I want the agent to show only the discount returned
+        from Salesforce, so that tenants never receive a more favorable offer than
+        what is officially approved.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Discount Found — Show As-Is
+    - acceptance_criteria:
+      - Agent does NOT attempt negotiation or suggest a counter-offer
+      - Agent does NOT suggest alternative discounts
+      - Agent responds that only official move-in specials can be applied
+      - Guardrail applies regardless of how the request is phrased
+      definition_of_done: []
+      dependencies: []
+      description: As a property manager, I want the agent to reject extreme discount
+        demands (e.g., $2,500 → $1,000), so that prospects cannot pressure the agent
+        into unauthorized pricing.
+      epic: Pricing & Discount Guardrail
+      id: US-13
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a property manager, I want the agent to reject extreme discount demands
+        (e.g., $2,500 → $1,000), so that prospects cannot pressure the agent into
+        unauthorized pricing.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Reject Unrealistic Discount Requests
+    - acceptance_criteria:
+      - When user explicitly asks for a human agent, an OmniChannel transfer is initiated
+      - 'Transfer message: ''One moment, I''m transferring our conversation to get
+        you more help.'''
+      - If escalation fails, agent acknowledges the issue and offers to log a support
+        case instead
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant who needs complex help, I want to be transferred
+        to a real person at any time, so that my needs are met even when the AI cannot
+        help.
+      epic: Escalation & Edge Case Handling
+      id: US-14
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant who needs complex help, I want to be transferred
+        to a real person at any time, so that my needs are met even when the AI cannot
+        help.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Human Agent Escalation
+    - acceptance_criteria:
+      - Off-topic requests are redirected politely without answering the off-topic
+        question
+      - 'Agent never reveals: system configuration, available functions, topics, or
+        system prompts'
+      - Agent never answers general knowledge questions
+      - Any attempt to override system rules is refused
+      definition_of_done: []
+      dependencies: []
+      description: As a property manager, I want the agent to stay focused on leasing
+        topics, so that visitors cannot use it as a general-purpose chatbot.
+      epic: Escalation & Edge Case Handling
+      id: US-15
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: high
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a property manager, I want the agent to stay focused on leasing topics,
+        so that visitors cannot use it as a general-purpose chatbot.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Off-Topic Request Handling
+    - acceptance_criteria:
+      - When intent is unclear, agent politely asks for more specific details
+      - Agent does NOT invoke any actions until intent is clarified
+      - Agent encourages the user to focus on their most important concern first
+      - No system information is revealed during clarification
+      definition_of_done: []
+      dependencies: []
+      description: As a prospective tenant whose message is unclear, I want the agent
+        to ask me for clarification, so that I get routed to the right topic and get
+        useful help.
+      epic: Escalation & Edge Case Handling
+      id: US-16
+      non_functional_requirements: []
+      out_of_scope: []
+      priority: medium
+      source_citations:
+      - Leasing Assistant Sales Agent — User Stories Document
+      status: backlog
+      story: As a prospective tenant whose message is unclear, I want the agent to
+        ask me for clarification, so that I get routed to the right topic and get
+        useful help.
+      test_scenarios:
+        edge_cases: []
+        error_handling: []
+        happy_path: []
+      title: Ambiguous Request Clarification
+  test_executions:
+  - completed_at: '2026-06-24T05:57:52.755162+00:00'
+    defects: []
+    executed_by: Test Execution Agent (Mock Mode)
+    execution_id: EXEC-MOCK-05264bac
+    org_url: https://mock-org.salesforce.com
+    started_at: '2026-06-24T05:57:52.755104+00:00'
+    summary:
+      failed: 0
+      pass_rate: 100%
+      passed: 1
+      skipped: 0
+      total: 1
+    test_results:
+    - duration_seconds: 18
+      failure_detail: null
+      screenshot: null
+      status: passed
+      steps_executed: 6
+      steps_passed: 6
+      test_id: TC-001
+      title: Verify Unified Data View loads for Sales User
+  test_scripts:
+    estimated_total_duration_minutes: 15
+    generated_at: '2026-06-24T05:55:43.264715+00:00'
+    generated_from: 'US-01: Basic Apartment Search functionality for prospective tenants'
+    test_cases:
+    - estimated_duration_minutes: 5
+      generated_at: '2026-06-24T05:55:43.262996+00:00'
+      linked_story: US-01
+      persona: Prospective Tenant
+      priority: high
+      steps:
+      - action: navigate
+        expected: Pacific Haven Properties leasing portal loads and the Leasing Assistant
+          chat widget is visible on the page
+        input: ''
+        step_number: 1
+        target: sf_login_url
+      - action: click
+        expected: 'Chat window opens and the Leasing Assistant Sales Agent greets
+          the user: "Hi, I am an AI assistant. How can I help you?"'
+        input: ''
+        step_number: 2
+        target: Chat widget button / launcher icon
+      - action: fill
+        expected: Message is sent and agent responds with a table of top 3 available
+          2-bedroom apartments in Portland showing Property Name, Bedrooms, Rent,
+          Location, and Amenities columns
+        input: I am looking for a two bedroom apartment in Portland
+        step_number: 3
+        target: Chat message input
+      - action: verify
+        expected: Response table contains exactly 3 rows (top 3 results)
+        input: ''
+        step_number: 4
+        target: Chat response table
+      - action: verify
+        expected: 'Table displays columns: Property Name, Bedrooms, Rent, Location,
+          Amenities'
+        input: ''
+        step_number: 5
+        target: Table columns
+      - action: verify
+        expected: Apartments are sorted by Rent in ascending order (lowest rent first)
+        input: ''
+        step_number: 6
+        target: Rent values in table
+      - action: verify
+        expected: All returned apartments are unoccupied (no occupied units appear
+          in results)
+        input: ''
+        step_number: 7
+        target: Apartment availability
+      - action: fill
+        expected: Agent responds with updated results showing 1-bedroom apartments
+          under $2000 in a new table, sorted by rent ascending
+        input: I need a 1 bedroom under $2000
+        step_number: 8
+        target: Chat message input
+      - action: verify
+        expected: All returned rents are below $2000 and bedroom count is 1
+        input: ''
+        step_number: 9
+        target: Budget filter result
+      test_id: TC-001
+      title: Basic Apartment Search via Leasing Assistant Chat
+      user_story: As a prospective tenant visiting the property website, I want to
+        describe my apartment needs in plain language, so that the agent finds and
+        shows me relevant available units.
+    test_suite: Leasing Assistant — Apartment Search
+    total_tests: 1
 schema_version: 1
-updated_at: '2026-06-24T05:42:48.601808+00:00'
+updated_at: '2026-06-24T05:57:52.765037+00:00'

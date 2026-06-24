@@ -1,31 +1,1524 @@
 # Personas
 
-## System Administrator
-
-**Role:** IT Admin
+## End User / Operator
 
 **Goals:**
-- Manage users
-- Configure system
-- Monitor health
+- C
+- o
+- m
+- p
+- l
+- e
+- t
+- e
+-  
+- d
+- a
+- i
+- l
+- y
+-  
+- t
+- a
+- s
+- k
+- s
+-  
+- e
+- f
+- f
+- i
+- c
+- i
+- e
+- n
+- t
+- l
+- y
+- ,
+-  
+- r
+- e
+- d
+- u
+- c
+- e
+-  
+- d
+- a
+- t
+- a
+-  
+- r
+- e
+- -
+- e
+- n
+- t
+- r
+- y
+- ,
+-  
+- a
+- c
+- c
+- e
+- s
+- s
+-  
+- i
+- n
+- f
+- o
+- r
+- m
+- a
+- t
+- i
+- o
+- n
+-  
+- o
+- n
+-  
+- m
+- o
+- b
+- i
+- l
+- e
 
-## Business User
-
-**Role:** End User
+## Manager / Supervisor
 
 **Goals:**
-- Complete daily tasks efficiently
-- Access accurate data
+- T
+- r
+- a
+- c
+- k
+-  
+- t
+- e
+- a
+- m
+-  
+- p
+- e
+- r
+- f
+- o
+- r
+- m
+- a
+- n
+- c
+- e
+- ,
+-  
+- a
+- p
+- p
+- r
+- o
+- v
+- e
+-  
+- r
+- e
+- q
+- u
+- e
+- s
+- t
+- s
+-  
+- q
+- u
+- i
+- c
+- k
+- l
+- y
+- ,
+-  
+- g
+- e
+- t
+-  
+- r
+- e
+- a
+- l
+- -
+- t
+- i
+- m
+- e
+-  
+- d
+- a
+- s
+- h
+- b
+- o
+- a
+- r
+- d
+- s
 
-## Manager
-
-**Role:** Team Lead
+## Executive / Leadership
 
 **Goals:**
-- Track team performance
-- Generate reports
-- Approve workflows
+- P
+- o
+- r
+- t
+- f
+- o
+- l
+- i
+- o
+- -
+- l
+- e
+- v
+- e
+- l
+-  
+- v
+- i
+- s
+- i
+- b
+- i
+- l
+- i
+- t
+- y
+- ,
+-  
+- t
+- r
+- e
+- n
+- d
+-  
+- a
+- n
+- a
+- l
+- y
+- s
+- i
+- s
+- ,
+-  
+- d
+- a
+- t
+- a
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- d
+- e
+- c
+- i
+- s
+- i
+- o
+- n
+- s
+
+## Sarah Chen — Leasing Agent
+
+**Goals:**
+- C
+- l
+- o
+- s
+- e
+-  
+- m
+- o
+- r
+- e
+-  
+- l
+- e
+- a
+- s
+- e
+- s
+-  
+- e
+- f
+- f
+- i
+- c
+- i
+- e
+- n
+- t
+- l
+- y
+- ,
+-  
+- p
+- r
+- o
+- v
+- i
+- d
+- e
+-  
+- e
+- x
+- c
+- e
+- l
+- l
+- e
+- n
+- t
+-  
+- p
+- r
+- o
+- s
+- p
+- e
+- c
+- t
+-  
+- e
+- x
+- p
+- e
+- r
+- i
+- e
+- n
+- c
+- e
+- ,
+-  
+- a
+- n
+- d
+-  
+- f
+- o
+- c
+- u
+- s
+-  
+- o
+- n
+-  
+- h
+- i
+- g
+- h
+- -
+- v
+- a
+- l
+- u
+- e
+-  
+- s
+- a
+- l
+- e
+- s
+-  
+- a
+- c
+- t
+- i
+- v
+- i
+- t
+- i
+- e
+- s
+-  
+- r
+- a
+- t
+- h
+- e
+- r
+-  
+- t
+- h
+- a
+- n
+-  
+- r
+- e
+- p
+- e
+- t
+- i
+- t
+- i
+- v
+- e
+-  
+- i
+- n
+- q
+- u
+- i
+- r
+- i
+- e
+- s
+
+## Marcus Rodriguez — Current Tenant
+
+**Goals:**
+- Q
+- u
+- i
+- c
+- k
+- l
+- y
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+-  
+- m
+- a
+- i
+- n
+- t
+- e
+- n
+- a
+- n
+- c
+- e
+-  
+- i
+- s
+- s
+- u
+- e
+- s
+- ,
+-  
+- g
+- e
+- t
+-  
+- s
+- t
+- a
+- t
+- u
+- s
+-  
+- u
+- p
+- d
+- a
+- t
+- e
+- s
+-  
+- o
+- n
+-  
+- r
+- e
+- q
+- u
+- e
+- s
+- t
+- s
+- ,
+-  
+- a
+- n
+- d
+-  
+- a
+- c
+- c
+- e
+- s
+- s
+-  
+- b
+- u
+- i
+- l
+- d
+- i
+- n
+- g
+-  
+- s
+- e
+- r
+- v
+- i
+- c
+- e
+- s
+-  
+- w
+- i
+- t
+- h
+- o
+- u
+- t
+-  
+- l
+- o
+- n
+- g
+-  
+- w
+- a
+- i
+- t
+-  
+- t
+- i
+- m
+- e
+- s
+-  
+- o
+- r
+-  
+- f
+- r
+- u
+- s
+- t
+- r
+- a
+- t
+- i
+- o
+- n
+
+## Jennifer Kim — Property Manager
+
+**Goals:**
+- M
+- a
+- k
+- e
+-  
+- d
+- a
+- t
+- a
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- d
+- e
+- c
+- i
+- s
+- i
+- o
+- n
+- s
+-  
+- a
+- b
+- o
+- u
+- t
+-  
+- p
+- r
+- o
+- p
+- e
+- r
+- t
+- y
+-  
+- o
+- p
+- e
+- r
+- a
+- t
+- i
+- o
+- n
+- s
+- ,
+-  
+- e
+- f
+- f
+- i
+- c
+- i
+- e
+- n
+- t
+- l
+- y
+-  
+- m
+- a
+- n
+- a
+- g
+- e
+-  
+- m
+- a
+- i
+- n
+- t
+- e
+- n
+- a
+- n
+- c
+- e
+-  
+- b
+- a
+- c
+- k
+- l
+- o
+- g
+- s
+- ,
+-  
+- a
+- n
+- d
+-  
+- m
+- a
+- i
+- n
+- t
+- a
+- i
+- n
+-  
+- h
+- i
+- g
+- h
+-  
+- o
+- c
+- c
+- u
+- p
+- a
+- n
+- c
+- y
+-  
+- r
+- a
+- t
+- e
+- s
+-  
+- a
+- c
+- r
+- o
+- s
+- s
+-  
+- p
+- o
+- r
+- t
+- f
+- o
+- l
+- i
+- o
+
+## Sarah Chen — Leasing Agent
+
+**Goals:**
+- C
+- l
+- o
+- s
+- e
+-  
+- m
+- o
+- r
+- e
+-  
+- l
+- e
+- a
+- s
+- e
+- s
+- ,
+-  
+- p
+- r
+- o
+- v
+- i
+- d
+- e
+-  
+- e
+- x
+- c
+- e
+- l
+- l
+- e
+- n
+- t
+-  
+- c
+- u
+- s
+- t
+- o
+- m
+- e
+- r
+-  
+- s
+- e
+- r
+- v
+- i
+- c
+- e
+- ,
+-  
+- a
+- n
+- d
+-  
+- s
+- p
+- e
+- n
+- d
+-  
+- t
+- i
+- m
+- e
+-  
+- o
+- n
+-  
+- h
+- i
+- g
+- h
+- -
+- v
+- a
+- l
+- u
+- e
+-  
+- p
+- r
+- o
+- s
+- p
+- e
+- c
+- t
+-  
+- i
+- n
+- t
+- e
+- r
+- a
+- c
+- t
+- i
+- o
+- n
+- s
+-  
+- r
+- a
+- t
+- h
+- e
+- r
+-  
+- t
+- h
+- a
+- n
+-  
+- a
+- n
+- s
+- w
+- e
+- r
+- i
+- n
+- g
+-  
+- r
+- e
+- p
+- e
+- t
+- i
+- t
+- i
+- v
+- e
+-  
+- q
+- u
+- e
+- s
+- t
+- i
+- o
+- n
+- s
+
+## Marcus Rodriguez — Current Tenant
+
+**Goals:**
+- Q
+- u
+- i
+- c
+- k
+- l
+- y
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+-  
+- m
+- a
+- i
+- n
+- t
+- e
+- n
+- a
+- n
+- c
+- e
+-  
+- i
+- s
+- s
+- u
+- e
+- s
+- ,
+-  
+- g
+- e
+- t
+-  
+- s
+- t
+- a
+- t
+- u
+- s
+-  
+- u
+- p
+- d
+- a
+- t
+- e
+- s
+-  
+- o
+- n
+-  
+- r
+- e
+- q
+- u
+- e
+- s
+- t
+- s
+- ,
+-  
+- a
+- n
+- d
+-  
+- a
+- c
+- c
+- e
+- s
+- s
+-  
+- p
+- r
+- o
+- p
+- e
+- r
+- t
+- y
+-  
+- i
+- n
+- f
+- o
+- r
+- m
+- a
+- t
+- i
+- o
+- n
+-  
+- w
+- i
+- t
+- h
+- o
+- u
+- t
+-  
+- l
+- o
+- n
+- g
+-  
+- w
+- a
+- i
+- t
+-  
+- t
+- i
+- m
+- e
+- s
+-  
+- o
+- r
+-  
+- p
+- h
+- o
+- n
+- e
+-  
+- c
+- a
+- l
+- l
+- s
+
+## Jennifer Park — Property Manager
+
+**Goals:**
+- A
+- c
+- c
+- e
+- s
+- s
+-  
+- r
+- e
+- a
+- l
+- -
+- t
+- i
+- m
+- e
+-  
+- p
+- r
+- o
+- p
+- e
+- r
+- t
+- y
+-  
+- d
+- a
+- t
+- a
+- ,
+-  
+- a
+- u
+- t
+- o
+- m
+- a
+- t
+- e
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+- i
+- n
+- g
+- ,
+-  
+- a
+- n
+- d
+-  
+- m
+- a
+- k
+- e
+-  
+- d
+- a
+- t
+- a
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- d
+- e
+- c
+- i
+- s
+- i
+- o
+- n
+- s
+-  
+- a
+- b
+- o
+- u
+- t
+-  
+- t
+- e
+- n
+- a
+- n
+- t
+-  
+- r
+- e
+- n
+- e
+- w
+- a
+- l
+- s
+-  
+- a
+- n
+- d
+-  
+- p
+- r
+- o
+- p
+- e
+- r
+- t
+- y
+-  
+- o
+- p
+- e
+- r
+- a
+- t
+- i
+- o
+- n
+- s
+
+## Sarah Chen — Leasing Agent
+
+**Goals:**
+- C
+- l
+- o
+- s
+- e
+-  
+- m
+- o
+- r
+- e
+-  
+- l
+- e
+- a
+- s
+- e
+- s
+- ,
+-  
+- s
+- p
+- e
+- n
+- d
+-  
+- t
+- i
+- m
+- e
+-  
+- o
+- n
+-  
+- q
+- u
+- a
+- l
+- i
+- f
+- i
+- e
+- d
+-  
+- p
+- r
+- o
+- s
+- p
+- e
+- c
+- t
+- s
+- ,
+-  
+- p
+- r
+- o
+- v
+- i
+- d
+- e
+-  
+- a
+- c
+- c
+- u
+- r
+- a
+- t
+- e
+-  
+- p
+- r
+- o
+- p
+- e
+- r
+- t
+- y
+-  
+- i
+- n
+- f
+- o
+- r
+- m
+- a
+- t
+- i
+- o
+- n
+-  
+- q
+- u
+- i
+- c
+- k
+- l
+- y
+- ,
+-  
+- s
+- c
+- h
+- e
+- d
+- u
+- l
+- e
+-  
+- s
+- h
+- o
+- w
+- i
+- n
+- g
+- s
+-  
+- e
+- f
+- f
+- i
+- c
+- i
+- e
+- n
+- t
+- l
+- y
+
+## Marcus Rodriguez — Current Tenant
+
+**Goals:**
+- R
+- e
+- p
+- o
+- r
+- t
+-  
+- m
+- a
+- i
+- n
+- t
+- e
+- n
+- a
+- n
+- c
+- e
+-  
+- i
+- s
+- s
+- u
+- e
+- s
+-  
+- q
+- u
+- i
+- c
+- k
+- l
+- y
+- ,
+-  
+- g
+- e
+- t
+-  
+- s
+- t
+- a
+- t
+- u
+- s
+-  
+- u
+- p
+- d
+- a
+- t
+- e
+- s
+-  
+- o
+- n
+-  
+- r
+- e
+- q
+- u
+- e
+- s
+- t
+- s
+- ,
+-  
+- a
+- c
+- c
+- e
+- s
+- s
+-  
+- b
+- u
+- i
+- l
+- d
+- i
+- n
+- g
+-  
+- a
+- m
+- e
+- n
+- i
+- t
+- i
+- e
+- s
+-  
+- s
+- e
+- c
+- u
+- r
+- e
+- l
+- y
+- ,
+-  
+- m
+- a
+- n
+- a
+- g
+- e
+-  
+- l
+- e
+- a
+- s
+- e
+-  
+- p
+- a
+- y
+- m
+- e
+- n
+- t
+- s
+-  
+- a
+- n
+- d
+-  
+- r
+- e
+- n
+- e
+- w
+- a
+- l
+- s
+
+## Jennifer Park — Property Manager
+
+**Goals:**
+- M
+- o
+- n
+- i
+- t
+- o
+- r
+-  
+- o
+- c
+- c
+- u
+- p
+- a
+- n
+- c
+- y
+-  
+- r
+- a
+- t
+- e
+- s
+- ,
+-  
+- t
+- r
+- a
+- c
+- k
+-  
+- m
+- a
+- i
+- n
+- t
+- e
+- n
+- a
+- n
+- c
+- e
+-  
+- b
+- a
+- c
+- k
+- l
+- o
+- g
+- s
+- ,
+-  
+- g
+- e
+- n
+- e
+- r
+- a
+- t
+- e
+-  
+- c
+- o
+- m
+- p
+- l
+- i
+- a
+- n
+- c
+- e
+-  
+- r
+- e
+- p
+- o
+- r
+- t
+- s
+- ,
+-  
+- m
+- a
+- k
+- e
+-  
+- d
+- a
+- t
+- a
+- -
+- d
+- r
+- i
+- v
+- e
+- n
+-  
+- r
+- e
+- n
+- e
+- w
+- a
+- l
+-  
+- d
+- e
+- c
+- i
+- s
+- i
+- o
+- n
+- s
+- ,
+-  
+- m
+- a
+- n
+- a
+- g
+- e
+-  
+- t
+- e
+- n
+- a
+- n
+- t
+-  
+- c
+- o
+- m
+- m
+- u
+- n
+- i
+- c
+- a
+- t
+- i
+- o
+- n
+- s
 
 
 ---
-_Auto-generated from in-app state. Source field: `extracted_profile.personas`. Last updated: 2026-06-24T05:42:48.659052+00:00._
+_Auto-generated from in-app state. Source field: `extracted_profile.personas`. Last updated: 2026-06-24T05:57:52.791647+00:00._

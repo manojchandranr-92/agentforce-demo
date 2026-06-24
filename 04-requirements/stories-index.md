@@ -2,22 +2,23 @@
 
 | ID | Title | Priority | Status |
 | --- | --- | --- | --- |
-| LA-01 | Apartment Search & Availability | high | backlog |
-| LA-02 | Contact Information & Lead Capture | high | backlog |
-| LA-03 | Immediate Move-in Escalation | high | backlog |
-| LA-04 | Building Policy Validation (RAG) | medium | backlog |
-| LA-05 | Financial Negotiation Guardrails | high | backlog |
-| TC-01 | Authentication Status Evaluation | high | backlog |
-| TC-02 | Maintenance Ticket Triage & Deflection | high | backlog |
-| TC-03 | Historical Issue Recurrence Monitoring | medium | backlog |
-| TC-04 | Sentiment-Based Routing & Off-Hours Handling | medium | backlog |
-| TC-05 | Secure Remote Door Unlock (SmartRent Integration) | high | backlog |
-| TC-06 | Keyfob Replacement & Provisioning Integration | medium | backlog |
-| OC-01 | Operational Tenant Profile Aggregation | high | backlog |
-| OC-02 | Compliance-Driven Lease Renewal Automation | high | backlog |
-| OC-03 | Fair Housing & Data Privacy Isolation | high | backlog |
-| OC-04 | Portfolio Summary Analytics & Cost Control | medium | backlog |
+| US-01 | Basic Apartment Search | high | backlog |
+| US-02 | Amenity-Based Apartment Search | high | backlog |
+| US-03 | Lead Capture After Apartment Search | high | backlog |
+| US-04 | Lead Interest Level Classification | high | backlog |
+| US-05 | Apartment ID on Lead (Explicit Interest Only) | medium | backlog |
+| US-06 | No Apartments Found | medium | backlog |
+| US-07 | Policy Question Answering | high | backlog |
+| US-08 | Knowledge Boundary Enforcement | high | backlog |
+| US-09 | Move-in Special Lookup | high | backlog |
+| US-10 | No Double-Lookup (Apartment ID vs Name) | medium | backlog |
+| US-11 | No Discount Available | medium | backlog |
+| US-12 | Discount Found — Show As-Is | high | backlog |
+| US-13 | Reject Unrealistic Discount Requests | high | backlog |
+| US-14 | Human Agent Escalation | high | backlog |
+| US-15 | Off-Topic Request Handling | high | backlog |
+| US-16 | Ambiguous Request Clarification | medium | backlog |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-24T05:42:48.519536+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.user_stories`. Last updated: 2026-06-24T05:57:52.795440+00:00._

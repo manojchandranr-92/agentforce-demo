@@ -2,8 +2,8 @@
 
 | Test case | Title | Story | Steps | Assertions |
 | --- | --- | --- | --- | --- |
-| TC-001 | Search available apartments with budget, city, and size parameters | LA-01 | 9 | 5 |
+| TC-001 | Basic Apartment Search via Leasing Assistant Chat | US-01 | 9 | 0 |
 
 
 ---
-_Auto-generated from in-app state. Source field: `pipeline_artifacts.test_scripts`. Last updated: 2026-06-24T05:38:11.718647+00:00._
+_Auto-generated from in-app state. Source field: `pipeline_artifacts.test_scripts`. Last updated: 2026-06-24T05:57:52.796117+00:00._
