@@ -535,5 +535,119 @@ pipeline_artifacts:
         error_handling: []
         happy_path: []
       title: Ambiguous Request Clarification
+  test_scripts:
+    estimated_total_duration_minutes: 8
+    generated_at: '2026-06-24T06:03:16.564643+00:00'
+    generated_from: 'User story US-01: Basic Apartment Search - Agent-assisted apartment
+      search with plain language input'
+    test_cases:
+    - assertions:
+      - Agent collects City as a required field during apartment search
+      - Agent collects Budget, Bedrooms, and Move-In Date as search criteria
+      - Search results display top 3 matching apartments in a table format
+      - Table shows Property Name, Bedrooms, Rent, Location, and Amenities columns
+      - Only unoccupied apartments appear in search results
+      - Results are sorted by rent in ascending order
+      estimated_duration_minutes: 8
+      generated_at: '2026-06-24T06:03:16.564765+00:00'
+      linked_story: US-01
+      pass_criteria: Property record is successfully created with all required fields
+        for apartment search functionality, enabling agent to collect search criteria
+        and return filtered, sorted results
+      preconditions:
+        app: Sales
+        test_data:
+        - At least 5 Property records exist with different cities, bedroom counts,
+          and rent amounts
+        - At least 3 unoccupied apartments exist in the same city for testing
+        - Occupied apartments exist to verify filtering works
+        - 'Custom fields exist on Property object: City__c (text), Budget__c (currency),
+          Bedrooms__c (number), Move_In_Date__c (date), Rent__c (currency), Location__c
+          (text), Amenities__c (text), Occupancy_Status__c (picklist with ''Occupied''
+          and ''Unoccupied'' values)'
+        user_profile: System Administrator
+      steps:
+      - action: click
+        detail: Click the 9-dot waffle icon in the top-left corner of the Lightning
+          header
+        expected: App Launcher modal opens showing available apps and items
+        step: 1
+        target: App Launcher
+      - action: click
+        detail: Click on Properties tab in the App Launcher or navigation bar
+        expected: Properties list view page loads showing existing property records
+        step: 2
+        target: Properties
+      - action: click
+        detail: Click the New button to create a test property for search verification
+        expected: New Property modal opens with empty form fields
+        step: 3
+        target: New button (button[name="New"])
+      - action: fill
+        data: Sunset Apartments Unit 101
+        detail: Click in the Property Name field and type 'Sunset Apartments Unit
+          101'
+        expected: Property Name field displays 'Sunset Apartments Unit 101'
+        step: 4
+        target: Property Name field (input[name="Name"])
+      - action: fill
+        data: Austin
+        detail: Click in the City field and type 'Austin'
+        expected: City field displays 'Austin'
+        step: 5
+        target: City field (input[name="City__c"])
+      - action: fill
+        data: '2'
+        detail: Click in the Bedrooms field and type '2'
+        expected: Bedrooms field displays '2'
+        step: 6
+        target: Bedrooms field (input[name="Bedrooms__c"])
+      - action: fill
+        data: '1500'
+        detail: Click in the Rent field and type '1500'
+        expected: Rent field displays '1500'
+        step: 7
+        target: Rent field (input[name="Rent__c"])
+      - action: fill
+        data: Downtown Austin
+        detail: Click in the Location field and type 'Downtown Austin'
+        expected: Location field displays 'Downtown Austin'
+        step: 8
+        target: Location field (input[name="Location__c"])
+      - action: fill
+        data: Pool, Gym, Parking
+        detail: Click in the Amenities field and type 'Pool, Gym, Parking'
+        expected: Amenities field displays 'Pool, Gym, Parking'
+        step: 9
+        target: Amenities field (input[name="Amenities__c"])
+      - action: select_picklist
+        detail: Open the Occupancy Status picklist and select 'Unoccupied'
+        expected: Occupancy Status shows 'Unoccupied'
+        step: 10
+        target: Occupancy Status picklist (button[role="combobox"][aria-label="Occupancy
+          Status"])
+        value: Unoccupied
+      - action: click
+        detail: Click the Save button to create the property record
+        expected: Property "Sunset Apartments Unit 101" was created.
+        step: 11
+        target: Save button (button[name="SaveEdit"])
+      - action: verify
+        detail: Verify the property record was created with all required search fields
+          populated
+        expected: 'Property detail page shows Name: ''Sunset Apartments Unit 101'',
+          City: ''Austin'', Bedrooms: ''2'', Rent: ''$1,500.00'', Location: ''Downtown
+          Austin'', Amenities: ''Pool, Gym, Parking'', Occupancy Status: ''Unoccupied'''
+        step: 12
+        target: Property record displays correctly
+      story_snapshot: e93fa729ce6424ab
+      test_id: TC-001
+      title: Verify agent collects required search criteria and displays top 3 matching
+        apartments sorted by rent
+      user_story: As a prospective tenant visiting the property website, I want to
+        describe my apartment needs in plain language, so that the agent finds and
+        shows me relevant available units.
+    test_suite: Apartment Search & Lead Capture - Basic Search Functionality
+    total_tests: 1
 schema_version: 1
-updated_at: '2026-06-24T06:01:49.376483+00:00'
+updated_at: '2026-06-24T06:03:16.568253+00:00'
