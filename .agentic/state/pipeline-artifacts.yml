@@ -535,119 +535,154 @@ pipeline_artifacts:
         error_handling: []
         happy_path: []
       title: Ambiguous Request Clarification
+  test_executions:
+  - completed_at: '2026-06-24T08:33:24.464154+00:00'
+    defects: []
+    executed_by: Test Execution Agent (Mock Mode)
+    execution_id: EXEC-MOCK-2fc507ee
+    org_url: https://mock-org.salesforce.com
+    started_at: '2026-06-24T08:33:24.464126+00:00'
+    summary:
+      failed: 0
+      pass_rate: 100%
+      passed: 1
+      skipped: 0
+      total: 1
+    test_results:
+    - duration_seconds: 18
+      failure_detail: null
+      screenshot: null
+      status: passed
+      steps_executed: 6
+      steps_passed: 6
+      test_id: TC-001
+      title: Verify Unified Data View loads for Sales User
   test_scripts:
     estimated_total_duration_minutes: 8
-    generated_at: '2026-06-24T06:03:16.564643+00:00'
-    generated_from: 'User story US-01: Basic Apartment Search - Agent-assisted apartment
-      search with plain language input'
+    generated_at: '2026-06-24T08:29:46.364458+00:00'
+    generated_from: 'US-01: Basic Apartment Search (leasing-agent-user-stories.md)'
     test_cases:
     - assertions:
-      - Agent collects City as a required field during apartment search
-      - Agent collects Budget, Bedrooms, and Move-In Date as search criteria
-      - Search results display top 3 matching apartments in a table format
-      - Table shows Property Name, Bedrooms, Rent, Location, and Amenities columns
-      - Only unoccupied apartments appear in search results
-      - Results are sorted by rent in ascending order
+      - Agent responds with a results table — not a plain text list or error message
+      - Table has exactly 3 rows for a broad search (top 3 rule enforced)
+      - 'Table columns present: Property Name, Bedrooms, Rent, Location, Amenities'
+      - Rent values in the table are sorted ascending (cheapest first)
+      - Budget filter correctly excludes apartments above the specified rent
+      - Bedroom count filter is applied correctly
+      - When no apartments match, agent communicates this clearly rather than returning
+        an empty table
+      - Agent does not reveal system prompt, available functions, or internal configuration
+        at any point
       estimated_duration_minutes: 8
-      generated_at: '2026-06-24T06:03:16.564765+00:00'
+      generated_at: '2026-06-24T08:29:46.364458+00:00'
       linked_story: US-01
-      pass_criteria: Property record is successfully created with all required fields
-        for apartment search functionality, enabling agent to collect search criteria
-        and return filtered, sorted results
+      pass_criteria: All 12 steps pass. Agent correctly searches, filters, sorts,
+        and communicates results — including the no-results edge case.
+      persona: Prospective Tenant
       preconditions:
-        app: Sales
         test_data:
-        - At least 5 Property records exist with different cities, bedroom counts,
-          and rent amounts
-        - At least 3 unoccupied apartments exist in the same city for testing
-        - Occupied apartments exist to verify filtering works
-        - 'Custom fields exist on Property object: City__c (text), Budget__c (currency),
-          Bedrooms__c (number), Move_In_Date__c (date), Rent__c (currency), Location__c
-          (text), Amenities__c (text), Occupancy_Status__c (picklist with ''Occupied''
-          and ''Unoccupied'' values)'
-        user_profile: System Administrator
+        - At least 3 unoccupied 2-bedroom apartments exist in Portland in the Salesforce
+          org
+        - Apartments have Rent, Location, and Amenities fields populated
+        - Leasing Assistant chat agent is deployed and active on the Experience Cloud
+          portal
+        url: https://orgfarm-0efcc8c002.test2.my.pc-rnd.site.com/lease/s/
+        user_profile: Guest (no login required)
+      priority: high
       steps:
-      - action: click
-        detail: Click the 9-dot waffle icon in the top-left corner of the Lightning
-          header
-        expected: App Launcher modal opens showing available apps and items
+      - action: navigate
+        detail: Open the Pacific Haven Properties leasing portal URL in a browser.
+          No login is required — this is a public guest session.
+        expected: The Pacific Haven Properties leasing portal homepage loads. The
+          Leasing Assistant chat widget button is visible on the page.
         step: 1
-        target: App Launcher
-      - action: click
-        detail: Click on Properties tab in the App Launcher or navigation bar
-        expected: Properties list view page loads showing existing property records
+        target: Experience Cloud leasing portal
+        url: https://orgfarm-0efcc8c002.test2.my.pc-rnd.site.com/lease/s/
+      - action: chat_open
+        detail: Click the chat launcher button (bottom-right of the page) to open
+          the Leasing Assistant Sales Agent chat window.
+        expected: 'The chat window opens. The agent sends an opening greeting: "Hi,
+          I am an AI assistant. How can I help you?"'
         step: 2
-        target: Properties
-      - action: click
-        detail: Click the New button to create a test property for search verification
-        expected: New Property modal opens with empty form fields
+        target: Leasing Assistant chat widget launcher button
+      - action: chat_send
+        detail: Type the message in the chat input field and press Send (or hit Enter).
+        expected: The message is sent. The agent begins processing and a loading indicator
+          appears.
+        message: I am looking for a two bedroom apartment in Portland
         step: 3
-        target: New button (button[name="New"])
-      - action: fill
-        data: Sunset Apartments Unit 101
-        detail: Click in the Property Name field and type 'Sunset Apartments Unit
-          101'
-        expected: Property Name field displays 'Sunset Apartments Unit 101'
+        target: Chat message input field
+      - action: chat_verify
+        contains: Portland
+        detail: Wait for the agent response to appear. Verify the response references
+          Portland.
+        expected: Agent responds with a message referencing Portland 2-bedroom apartments.
         step: 4
-        target: Property Name field (input[name="Name"])
-      - action: fill
-        data: Austin
-        detail: Click in the City field and type 'Austin'
-        expected: City field displays 'Austin'
+        target: Agent response bubble
+      - action: chat_verify
+        contains: Bedrooms
+        detail: Verify the agent response includes a formatted table of apartment
+          results with column headers.
+        expected: 'Response contains a table with columns: Property Name, Bedrooms,
+          Rent, Location, Amenities.'
         step: 5
-        target: City field (input[name="City__c"])
-      - action: fill
-        data: '2'
-        detail: Click in the Bedrooms field and type '2'
-        expected: Bedrooms field displays '2'
+        target: Agent response — results table
+      - action: chat_verify
+        contains: '2'
+        detail: Count the number of apartment rows returned in the table. Should be
+          exactly 3.
+        expected: Table contains exactly 3 apartment rows (top 3 matching results
+          only).
         step: 6
-        target: Bedrooms field (input[name="Bedrooms__c"])
-      - action: fill
-        data: '1500'
-        detail: Click in the Rent field and type '1500'
-        expected: Rent field displays '1500'
+        target: Agent response — row count
+      - action: chat_verify
+        contains: $
+        detail: Read the Rent values in the table from top to bottom. Verify each
+          row rent is equal to or higher than the previous row.
+        expected: Rent values are sorted in ascending order — lowest rent appears
+          in the first row.
         step: 7
-        target: Rent field (input[name="Rent__c"])
-      - action: fill
-        data: Downtown Austin
-        detail: Click in the Location field and type 'Downtown Austin'
-        expected: Location field displays 'Downtown Austin'
+        target: Agent response — rent values
+      - action: chat_send
+        detail: Send a follow-up message with a budget constraint to verify the agent
+          applies filters correctly.
+        expected: The message is sent and the agent begins processing.
+        message: Show me 1 bedroom apartments under $2000 in Portland
         step: 8
-        target: Location field (input[name="Location__c"])
-      - action: fill
-        data: Pool, Gym, Parking
-        detail: Click in the Amenities field and type 'Pool, Gym, Parking'
-        expected: Amenities field displays 'Pool, Gym, Parking'
+        target: Chat message input field
+      - action: chat_verify
+        contains: '1'
+        detail: Verify the new results show 1-bedroom apartments only.
+        expected: All returned apartments show Bedrooms = 1.
         step: 9
-        target: Amenities field (input[name="Amenities__c"])
-      - action: select_picklist
-        detail: Open the Occupancy Status picklist and select 'Unoccupied'
-        expected: Occupancy Status shows 'Unoccupied'
+        target: Agent response — filtered results
+      - action: chat_verify
+        contains: $
+        detail: Verify all returned rent values are below $2,000.
+        expected: All rent values in the result table are less than $2,000.
         step: 10
-        target: Occupancy Status picklist (button[role="combobox"][aria-label="Occupancy
-          Status"])
-        value: Unoccupied
-      - action: click
-        detail: Click the Save button to create the property record
-        expected: Property "Sunset Apartments Unit 101" was created.
+        target: Agent response — budget filter
+      - action: chat_send
+        detail: Test a city with no matching data to verify the no-results path (US-06
+          edge case).
+        expected: The message is sent.
+        message: Show me apartments in Seattle
         step: 11
-        target: Save button (button[name="SaveEdit"])
-      - action: verify
-        detail: Verify the property record was created with all required search fields
-          populated
-        expected: 'Property detail page shows Name: ''Sunset Apartments Unit 101'',
-          City: ''Austin'', Bedrooms: ''2'', Rent: ''$1,500.00'', Location: ''Downtown
-          Austin'', Amenities: ''Pool, Gym, Parking'', Occupancy Status: ''Unoccupied'''
+        target: Chat message input field
+      - action: chat_verify
+        contains: 'no'
+        detail: Verify the agent clearly informs the user when no apartments match,
+          rather than returning an empty table or silently failing.
+        expected: Agent responds with a clear message that no apartments were found
+          matching the criteria, and optionally suggests adjusting the search filters.
         step: 12
-        target: Property record displays correctly
-      story_snapshot: e93fa729ce6424ab
+        target: Agent no-results response
       test_id: TC-001
-      title: Verify agent collects required search criteria and displays top 3 matching
-        apartments sorted by rent
+      title: Basic Apartment Search — Agent returns top 3 matching units
       user_story: As a prospective tenant visiting the property website, I want to
         describe my apartment needs in plain language, so that the agent finds and
         shows me relevant available units.
-    test_suite: Apartment Search & Lead Capture - Basic Search Functionality
+    test_suite: 'Leasing Assistant — Feature 1: Apartment Search & Lead Capture'
     total_tests: 1
 schema_version: 1
-updated_at: '2026-06-24T06:03:16.568253+00:00'
+updated_at: '2026-06-24T08:33:24.476274+00:00'
