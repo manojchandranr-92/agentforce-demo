@@ -606,6 +606,27 @@ pipeline_artifacts:
       steps_passed: 6
       test_id: TC-001
       title: Verify Unified Data View loads for Sales User
+  - completed_at: '2026-06-24T05:38:11.552364+00:00'
+    defects: []
+    executed_by: Test Execution Agent (Mock Mode)
+    execution_id: EXEC-MOCK-041a57fd
+    org_url: https://mock-org.salesforce.com
+    started_at: '2026-06-24T05:38:11.552258+00:00'
+    summary:
+      failed: 0
+      pass_rate: 100%
+      passed: 1
+      skipped: 0
+      total: 1
+    test_results:
+    - duration_seconds: 18
+      failure_detail: null
+      screenshot: null
+      status: passed
+      steps_executed: 6
+      steps_passed: 6
+      test_id: TC-001
+      title: Verify Unified Data View loads for Sales User
   test_scripts:
     estimated_total_duration_minutes: 8
     generated_at: '2026-06-23T08:00:00.742073+00:00'
@@ -705,4 +726,4 @@ pipeline_artifacts:
     test_suite: Experience Cloud Leasing Assistant Portal Tests
     total_tests: 1
 schema_version: 1
-updated_at: '2026-06-24T05:38:04.114424+00:00'
+updated_at: '2026-06-24T05:38:11.643517+00:00'
