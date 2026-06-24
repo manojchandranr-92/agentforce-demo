@@ -1194,4 +1194,4 @@ Instructions
 ```
 
 ---
-_Auto-generated from in-app state. Source field: `documents['Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf']`. Last updated: 2026-06-23T08:00:00.909256+00:00._
+_Auto-generated from in-app state. Source field: `documents['Demo Org Setup Instructions - Agentforce Readiness Capstone Program.pdf']`. Last updated: 2026-06-24T05:32:41.205914+00:00._
